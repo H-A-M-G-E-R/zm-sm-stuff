@@ -1,0 +1,51 @@
+sHoltzOam_Idle:
+  dw 12,sHoltzOam_Idle_Frame0
+  dw 12,sHoltzOam_Idle_Frame1
+  dw 12,sHoltzOam_Idle_Frame2
+  dw 12,sHoltzOam_Idle_Frame3
+  dw $80ED,sHoltzOam_Idle
+
+sHoltzOam_Warning:
+  dw 5,sHoltzOam_Idle_Frame0
+  dw 4,sHoltzOam_Warning_Frame1
+  dw 3,sHoltzOam_Warning_Frame2
+  dw 4,sHoltzOam_Warning_Frame3
+  dw 5,sHoltzOam_Warning_Frame4
+  dw 5,sHoltzOam_Warning_Frame5
+  dw 5,sHoltzOam_Warning_Frame6
+  dw 5,sHoltzOam_Warning_Frame7
+  dw 5,sHoltzOam_Warning_Frame8
+  dw $80ED,sHoltzOam_Warning
+
+sHoltzOam_GoingDown:
+  dw 4,sHoltzOam_GoingDown_Frame0
+  dw 4,sHoltzOam_GoingDown_Frame1
+  dw $80ED,sHoltzOam_GoingDown
+
+sHoltzOam_IdleAware:
+  dw 5,sHoltzOam_GoingDown_Frame0
+  dw 5,sHoltzOam_Warning_Frame4
+  dw 5,sHoltzOam_IdleAware_Frame2
+  dw $80ED,sHoltzOam_IdleAware
+
+sHoltzOam_GoingUp:
+  dw 2,sHoltzOam_GoingUp_Frame0
+  dw 2,sHoltzOam_GoingUp_Frame1
+  dw 2,sHoltzOam_GoingUp_Frame2
+  dw 2,sHoltzOam_GoingUp_Frame0
+  dw 2,sHoltzOam_GoingUp_Frame1
+  dw 2,sHoltzOam_GoingUp_Frame2
+  dw 4,sHoltzOam_IdleAware_Frame2
+  dw $80ED,sHoltzOam_GoingUp
+
+sHoltzOam_BonkingOnCeiling:
+  dw 5,sHoltzOam_IdleAware_Frame2
+  dw 5,sHoltzOam_Warning_Frame4
+  dw 4,sHoltzOam_Warning_Frame3
+  dw 3,sHoltzOam_Warning_Frame2
+  dw 4,sHoltzOam_Warning_Frame1
+  dw 5,sHoltzOam_Warning_Frame7
+  dw 3,sHoltzOam_Warning_Frame6
+  dw 3,sHoltzOam_Warning_Frame5
+  dw 3,sHoltzOam_Idle_Frame0
+  dw $80ED,sHoltzOam_BonkingOnCeiling

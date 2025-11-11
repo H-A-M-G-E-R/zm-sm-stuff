@@ -1,0 +1,40 @@
+sSidehopperOam_Idle:
+  dw 12,sSidehopperOam_Idle_Frame0
+  dw 12,sSidehopperOam_Idle_Frame1
+  dw 12,sSidehopperOam_Idle_Frame2
+  dw 12,sSidehopperOam_Idle_Frame1
+  dw $80ED,sSidehopperOam_Idle
+
+sSidehopperOam_ShakingHead:
+  dw 10,sSidehopperOam_ShakingHead_Frame0
+  dw 10,sSidehopperOam_ShakingHead_Frame1
+  dw 10,sSidehopperOam_ShakingHead_Frame2
+  dw 10,sSidehopperOam_ShakingHead_Frame1
+  dw 6,sSidehopperOam_ShakingHead_Frame0
+  dw 6,sSidehopperOam_ShakingHead_Frame1
+  dw 6,sSidehopperOam_ShakingHead_Frame2
+  dw 6,sSidehopperOam_ShakingHead_Frame1
+  dw $80ED,sSidehopperOam_ShakingHead
+
+sSidehopperOam_JumpWarning:
+  dw 3,sSidehopperOam_JumpWarning_Frame0
+  dw 4,sSidehopperOam_JumpWarning_Frame1
+  dw 6,sSidehopperOam_JumpWarning_Frame2
+  dw 12,sSidehopperOam_JumpWarning_Frame3
+  dw 2,sSidehopperOam_JumpWarning_Frame4
+  dw $80ED,sSidehopperOam_JumpWarning
+
+sSidehopperOam_Jumping:
+  dw 2,sSidehopperOam_Jumping_Frame0
+  dw 3,sSidehopperOam_Jumping_Frame1
+  dw 2,sSidehopperOam_Jumping_Frame2
+  dw $80ED,sSidehopperOam_Jumping
+
+sSidehopperOam_Landing:
+  dw 3,sSidehopperOam_Landing_Frame0
+  dw 4,sSidehopperOam_JumpWarning_Frame4
+  dw 6,sSidehopperOam_JumpWarning_Frame3
+  dw 12,sSidehopperOam_JumpWarning_Frame1
+  dw 16,sSidehopperOam_JumpWarning_Frame2
+  dw 8,sSidehopperOam_JumpWarning_Frame1
+  dw $80ED,sSidehopperOam_Landing

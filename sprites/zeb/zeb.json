@@ -1,0 +1,104 @@
+{
+ "game": "sm",
+ "name": "zeb",
+ "gfx": "AAAAAQECAQIBAgIEAQYBAgAAAAABAAEAAQAAAwIBAAUA4CAQUAjQCNQMJBKIapxBAAAA4MAwyDDINBjocpwg/gAAAAAAAAABAAEAAQABAQAAAAAAAAAAAAAAAAAAAAABAAAAeGiEaATIANgMOBRQiAAAAABgGOAYwDjAOADwIOAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAcBGJqgXoBhAMAAAAAAAAAAAAceAZ4hwL8AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhohDgCAAAAAAAAAAAAAAAAeIA4xAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw4AzkAgAAAAAAAAAAAAAAAADwBPgAAwABAAAAAQACAwQBhAN4AAMAAAAAAAAAAQMAA4ADhADAgCBAkECYsAywDqAeQD8AAIBAQCBQqAj0iHaUaiLZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAcADwAfCB0IHQANAAEABwAHAA8JAgAAAAAAAB5hPMMA/gD8AKhI/IjcAIwA3sI8fIAQ6HAAWAAAAAAAAAABAAAAAAAAAAANBQ8ABwAAAAEAAAAAAAAAAAAAAAAAAADGRoEwwQapiP4o/AAsAADcIAb4QD5wBogAIAAAAAEAAQAAAQABAAEBBwIHAAMAAQABAQAAAAAAAAAAAAAAwD4G/V6RAP8Atoj8ELgAMDzAwDwg9n4AfACIAAAAAAABAAABAAEAAQAAAAEBAwADAAEBAAEAAAAAAAAAAAAAAMQCOMY+oTjBTOLQ/CDwAGAA/MA4RuBAPnAMUAAAAAAAAAEAAQABAAEBAwIHBQ8ABwEAAQABAAAAAQECAAAAAABwgTjBBrkAzwD+yPwg+ACwgH7APnjGcjgIdEgQICAAAFiAJUIEOwAHAQIAAQAAAABAvyJdAj0ABgABAAAAAAAAgn0g+gD8APBAIADAAAAAAADDIKZATAAwIMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+ "palette": [
+  4288716960,
+  4291361016,
+  4279762944,
+  4291360904,
+  4294494440,
+  4294473928,
+  4286054480,
+  4291348600,
+  4294457504,
+  4289724512,
+  4281860192,
+  4278253816,
+  4278235384,
+  4278221016,
+  4278253568,
+  4278235136
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sZebOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -7,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZebOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -11,
+     "y": -7,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZebOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -11,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

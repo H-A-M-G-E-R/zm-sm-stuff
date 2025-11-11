@@ -1,0 +1,6 @@
+Dud shot frames 0 and 1 reuse small energy drop frames 0 and 1, using an all-white palette
+Charge flare and beam fire effect use the 16x16px region at tile DEh
+Liquid environmental effects are at row 1Fh, which can be overwritten by enemies
+Samus uses rows 0..1, beams use rows 2..4, common sprite tiles use rows 5..Fh
+Beam hit gfx can be swapped as needed
+Frozen and beam palettes are shared, unlike zm

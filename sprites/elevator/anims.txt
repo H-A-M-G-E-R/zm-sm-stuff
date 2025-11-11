@@ -1,0 +1,15 @@
+sElevatorPadOam_Moving:
+  dw 1,sElevatorPadOam_Moving_Frame0
+  dw 2,sElevatorPadOam_Moving_Frame1
+  dw 1,sElevatorPadOam_Moving_Frame2
+  dw 2,sElevatorPadOam_Moving_Frame3
+  dw $80ED,sElevatorPadOam_Moving
+
+sElevatorPadOam_Idle:
+  dw 8,sElevatorPadOam_Moving_Frame0
+  dw 8,sElevatorPadOam_Idle_Frame1
+  dw 8,sElevatorPadOam_Idle_Frame2
+  dw 8,sElevatorPadOam_Idle_Frame3
+  dw 8,sElevatorPadOam_Idle_Frame2
+  dw 8,sElevatorPadOam_Idle_Frame1
+  dw $80ED,sElevatorPadOam_Idle

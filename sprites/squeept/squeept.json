@@ -1,0 +1,674 @@
+{
+ "game": "sm",
+ "name": "squeept",
+ "gfx": "AAAAAAAAAAAAAwIGAQQABwAAAAAAAAAAAAAGAQQDBAAMHxkuEFYL/dG9RTgR6wXmHRwnLCs4ujiWUArUOAZ1CgAAAAAAAQACAAcAAwIGAQQAAAAAAQADAAQAAQAGAQQDHB81NiDuK/1RvcW4AWsF1h0cLzy7OLo4FlCqVDiGdQoAAAADAAUABgADAAEAAgIHAAADAAcABwAAAAAAAAEHAAQfBS4g/jv9Ef3FOAFrIZIFBB8cuzi6OFYQKtQ4hvEOAAAAAAABAwUGCgwBCBMQFQAAAAABAAYADQAKARQDCgQgQDBgQKAAQIAgQKAAQACAIAAQQECggEDAAECAgAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAxxQbwA/QL8A/wAAAAANABsAMAMACMAgAAMAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkIHwBvAN8AAAAAAAAAAAEYABEAZyBEAAcGCQgXGCQALDAIEEwQSAAABgAIBBoEEAg0CDAINAhg33DYYNBQEFAIMBgQAAAAIJAggCCAYABwACAAEAAAACgAVBA4KLoAfER8RHxsuigAOBBsKEQAxkSCRIJsgijGEAB8KLoA/kT+RLooVAA4EAAoKEQAxkSCRIIoxgBsECgAAAAAAAEAAQABAAAAAAAAAAAAAAEAAQAAAAAAAAAAABTKIJ/gX8E+BvgFGQIMAQZxAOMArxDHGA8QDgAHAAMEAAcBAgECAAMAAAAAAAAAAAEAAwADAAAAAAAAAAAAAAAsnoz/hHsBvgY4BRkCDAEG7QBNAIEAAxgPEA4ABwADBAAGAQYAAwAAAAAAAAAAAAADAAcAAAAAAAAAAAAAAAAA5JYMfwy/BToCPAUZAgwBBnUKzQANAAEQCxAOAAcAAwQYNgAqACwQKgAUABQIAAAIKAQ0CDAIFCgIEAgUCAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAEGGh8oKEVQBwAAAAAAAAABBQgXIDoEeAED/KRLEM/AvwD/EG8AnwCHA4y0AzAMQBgAWJAEAI8AABZmfyBg34AtAH8A/wAAAAAZAF8AIB/SIIBvAIAAAAAAgH/AXyDfAH+APwDvADcAAMAIoAggyIAowAwQJwAxAAAATjhVLgkUJgAcCCwYIAAwMAgqBDYAGAAAABQgGCAQAAsCLwhfEL8gvzBPCBMDBAACDAgwEGAgwDDACHADHAAHODgQEFQQEBAoAAAAAAAQADhEEGwQbBAoADgAEAAQABAoABAAEAAAAAAAAAAAAAAAADgAEAAQAAAAAAAAAAAAAA==",
+ "palette": [
+  4281366696,
+  4294506744,
+  4279238656,
+  4294500352,
+  4294479872,
+  4292884480,
+  4287102976,
+  4294494456,
+  4294455512,
+  4289724592,
+  4283433088,
+  4290312192,
+  4281919488,
+  4278226944,
+  4278231040,
+  4278210560
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sSqueeptOam_GoingUp_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": 3,
+     "tile": 285,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": 3,
+     "tile": 285,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_GoingUp_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -14,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -14,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": 2,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 10,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_GoingUp_Frame4",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -14,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -14,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": 2,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 10,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_GoingUp_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_GoingUp_Frame3",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -13,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -13,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_GoingUp_Frame5",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -13,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -13,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_TurningAround_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -13,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -13,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": 3,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_TurningAround_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -12,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -12,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_TurningAround_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_TurningAround_Frame3",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": -17,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_TurningAround_Frame4",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -17,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_GoingDown_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -3,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -16,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -3,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -16,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -8,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSqueeptOam_GoingDown_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -9,
+     "y": -17,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -9,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

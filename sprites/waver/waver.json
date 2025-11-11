@@ -1,0 +1,279 @@
+{
+ "game": "sm",
+ "name": "waver",
+ "gfx": "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",
+ "palette": [
+  4286611584,
+  4292409592,
+  4278190080,
+  4294473944,
+  4292362360,
+  4287633528,
+  4284481576,
+  4278253776,
+  4278241416,
+  4278220880,
+  4278210616,
+  4294498360,
+  4293435392,
+  4286054400,
+  4288696352,
+  4278204536
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sWaverOam_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -11,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 4,
+     "y": -11,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 5,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -3,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sWaverOam_Frame1",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sWaverOam_Frame2",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sWaverOam_Frame3",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sWaverOam_Frame4",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -11,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 4,
+     "y": -11,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 5,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -3,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sWaverOam_Frame5",
+   "spritemap": [
+    {
+     "x": -20,
+     "y": -12,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -12,
+     "y": 4,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -4,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

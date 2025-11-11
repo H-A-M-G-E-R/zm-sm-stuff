@@ -1,0 +1,739 @@
+{
+ "game": "sm",
+ "name": "mella",
+ "gfx": "AAAAAAAFACUkCgYICRESIwAAAAAFACUALwAPAB4APQAAQECiohWVCEpC5+f3NX6JQADiAPcA/wC9ABgACADDAAAQAAAABACgoFBAEJCISMQQAAAABACgAPAA8AB4ALwAAAAABAAhAAUBBgYYGSESIwAABAAhAAUABwAfAD4APQAAAQAgIFNRjAoCx8fvLX6ZAQAgAHMA/wD9ADgAEADDAAAAAAAAYGCQgBAQCNjESMQAAAAAYADwAPAA+AA8ALwAAAAAAAAAAAUBEhIMGSESIwAAAAAAAAUAEwAfAD4APQAAAAAgAMJCJSAY0sLn5X6ZAAAgAMIA5wD/AD0AGADDAAAAACAgUECQgBBEUNjEaKQAACAAcADwAPAAtAA8AJwAAAAABAABAQICFBUJGSESIwAABAABAAMAFwAeAD4APQAAAACAgENiHBgAw8PnJ36ZAACAAMMA/wD/ADwAGADDAAAAACAAQECg5BAgENDIaOQAACAAQADgAPQA8AA4AJwAAAAAAAAFACUkCgYICRESIwAAAAAFACUALwAPAB4APQAAQECiohWVCEpC5+f3NX6JQADiAPcA/wC9ABgACADDAAAQAAAABACgoFBAEJCISMQQAAAABACgAPAA8AB4ALwAAAAABAAhAAUBBgYYGSESIwAABAAhAAUABwAfAD4APQAZIwgXAgkIDwQIKDAAEAAAPwEeAAgHCAcAHCAYADAAABjngf8kwwCBQgAAAAAAAADngefbAP8AwwBmAAAAAAAAiMQQ6ECQEPAgEBQMAAgAAPyAeAAQ4BDgADgEGAAMAAARIwgXAgkID0RICHAAAAAAPwEeAAgHCAdAPAB4AAAAAJnngf8kwwCBQgAAAAAAAADngefbAP8AwwBmAAAAAAAAqOQQ6ECQEPAiEhAOAAAAANyAeAAQ4BDgAjwAHgAAAAAYIwgXQkkITwQ4AAAAAAAAPgEeAEgHCHcAPAAAAAAAAJnnw/8kwwCBgQAAAAAAAADngefbAP8AwwDDAAAAAAAAKOQQ6EKSEPIgHAAAAAAAAFyAeAAS4BDuADwAAAAAAAAYI0hXAkkAJygQAAAAAAAAPgFeAAhnAD8AOAAAAAAAABjnQv8kwwCBgQAAAAAAAABmgWbbAP8AwwDDAAAAAAAAKOQS6kCSAOQUCAAAAAAAAFyAegAQ5gD8ABwAAAAAAAAYI4jXQqkmGQEAAAAAAAAAPgGeYAj3AD8AAQAAAAAAAJnnw/8kw4EAAAAAAAAAAADngefbAP8AwwCBAAAAAAAACMQR60KVZJiAAAAAAAAAAHyAeQYQ7wD8AIAAAAAAAAARI0hXAkkAJykQAAAAAAAAPwFeAAhnAD8AOQAAAAAAAAABACAgU1GMCgLHx+8tfpkBACAAcwD/AP0AOAAQAMMAAAAAAABgYJCAEBAI2MRIxAAAAABgAPAA8AD4ADwAvACZ54H/JMOBAAAAAAAAAAAA54Hn2wD/AMMAgQAAAAAAAKjkEupAkgDklAgAAAAAAADcgHoAEOYA/ACcAAAAAAAAAAAAAAAAAAUBEhIMGSESIwAAAAAAAAUAEwAfAD4APQAAAAAgAMJCJSAY0sLn5X6ZAAAgAMIA5wD/AD0AGADDAAAAACAgUECQgBBEUNjEaKQAACAAcADwAPAAtAA8AJwAGSMIF0JJCE8EOAAAAAAAAD8BHgBIBwh3ADwAAAAAAAAY54H/JMMAgYEAAAAAAAAA54Hn2wD/AMMAwwAAAAAAAKjkEOhCkhDyIBwAAAAAAADcgHgAEuAQ7gA8AAAAAAAAAAAABAABAQICFBUJGSESIwAABAABAAMAFwAeAD4APQAAAACAgENiHBgAw8PnJ36ZAACAAMMA/wD/ADwAGADDAAAAACAAQECg5BAgENDIaOQAACAAQADgAPQA8AA4AJwAGSMIFwIJCA9ESAhwAAAAAD8BHgAIBwgHQDwAeAAAAAAY5wD/JMMAgYEAAAAAAAAA54Hn2wD/AMMAwwAAAAAAAKjkEOhAkBDwIhIQDgAAAADcgHgAEOAQ4AI8AB4AAAAA",
+ "palette": [
+  4278235264,
+  4294506640,
+  4282384384,
+  4294492160,
+  4294443024,
+  4290248704,
+  4285005824,
+  4291862776,
+  4290248952,
+  4286054608,
+  4280811656,
+  4287676664,
+  4287660240,
+  4278216880,
+  4278253648,
+  4278231040
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sMellaOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Idle_Frame3",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Idle_Frame4",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Idle_Frame5",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Idle_Frame6",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Idle_Frame7",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 303,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 276,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 277,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 279,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Moving_Frame3",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 281,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 283,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Moving_Frame4",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 285,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Moving_Frame5",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMellaOam_Moving_Frame6",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

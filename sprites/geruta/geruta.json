@@ -1,0 +1,1619 @@
+{
+ "game": "sm",
+ "name": "geruta",
+ "gfx": "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",
+ "palette": [
+  4278235264,
+  4294506744,
+  4281860096,
+  4294484184,
+  4285561056,
+  4286070944,
+  4283433080,
+  4293945472,
+  4289730560,
+  4286060616,
+  4281860152,
+  4294506520,
+  4294498304,
+  4294483968,
+  4294467584,
+  4292345856
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sGerutaOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -11,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -10,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 5,
+     "y": -12,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 1,
+     "y": -7,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -6,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -13,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -11,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -6,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Warning_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -11,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -10,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -5,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -19,
+     "y": -5,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Warning_Frame2",
+   "spritemap": [
+    {
+     "x": -22,
+     "y": -13,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 5,
+     "y": -12,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -10,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -21,
+     "y": -5,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 5,
+     "y": -6,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Launching_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -3,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -3,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Launching_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -6,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -6,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Launching_Frame2",
+   "spritemap": [
+    {
+     "x": 5,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -13,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -13,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Launching_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -14,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -13,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": 5,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingDown_Frame0",
+   "spritemap": [
+    {
+     "x": -10,
+     "y": -14,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": -14,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -21,
+     "y": -4,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -11,
+     "y": -4,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -3,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingDown_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 4,
+     "y": -4,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -11,
+     "y": -3,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -11,
+     "y": -11,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -11,
+     "y": -19,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": -11,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": -19,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingDown_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -21,
+     "y": -4,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -11,
+     "y": -4,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -2,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -3,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingDown_Frame3",
+   "spritemap": [
+    {
+     "x": 2,
+     "y": -16,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -15,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -3,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 5,
+     "y": -4,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -12,
+     "y": -3,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -3,
+     "y": -14,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    },
+    {
+     "x": -14,
+     "y": -13,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Bouncing_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -6,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 5,
+     "y": -7,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -4,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_Bouncing_Frame1",
+   "spritemap": [
+    {
+     "x": 6,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -10,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -13,
+     "y": 8,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": 8,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -3,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -3,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingUp_Frame0",
+   "spritemap": [
+    {
+     "x": 5,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -1,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -2,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -12,
+     "y": 9,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 10,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingUp_Frame1",
+   "spritemap": [
+    {
+     "x": 5,
+     "y": -7,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -2,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -3,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -12,
+     "y": 5,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 13,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": 6,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": 14,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingUp_Frame2",
+   "spritemap": [
+    {
+     "x": 5,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -1,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -2,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -12,
+     "y": 9,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 17,
+     "tile": 303,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": 10,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": 18,
+     "tile": 303,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_GoingUp_Frame3",
+   "spritemap": [
+    {
+     "x": 5,
+     "y": -7,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -2,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -3,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -11,
+     "y": 9,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": 9,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_BouncingOnCeiling_Frame0",
+   "spritemap": [
+    {
+     "x": -21,
+     "y": -10,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 4,
+     "y": -10,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -10,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -5,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -6,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sGerutaOam_BouncingOnCeiling_Frame1",
+   "spritemap": [
+    {
+     "x": -23,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -4,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -5,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

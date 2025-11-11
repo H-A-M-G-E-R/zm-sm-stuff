@@ -1,0 +1,38 @@
+sDessGeegaOam_Idle:
+  dw 8,sDessGeegaOam_Idle_Frame0
+  dw 8,sDessGeegaOam_Idle_Frame1
+  dw 8,sDessGeegaOam_Idle_Frame2
+  dw 8,sDessGeegaOam_Idle_Frame1
+  dw $80ED,sDessGeegaOam_Idle
+
+sDessGeegaOam_Screaming:
+  dw 8,sDessGeegaOam_Idle_Frame0
+  dw 6,sDessGeegaOam_Screaming_Frame1
+  dw 6,sDessGeegaOam_Screaming_Frame2
+  dw 4,sDessGeegaOam_Screaming_Frame3
+  dw 4,sDessGeegaOam_Screaming_Frame4
+  dw 3,sDessGeegaOam_Screaming_Frame5
+  dw 3,sDessGeegaOam_Screaming_Frame4
+  dw 3,sDessGeegaOam_Screaming_Frame5
+  dw 3,sDessGeegaOam_Screaming_Frame4
+  dw 4,sDessGeegaOam_Screaming_Frame5
+  dw 8,sDessGeegaOam_Screaming_Frame1
+  dw $80ED,sDessGeegaOam_Screaming
+
+sDessGeegaOam_JumpWarning:
+  dw 6,sDessGeegaOam_Idle_Frame0
+  dw 8,sDessGeegaOam_JumpWarning_Frame1
+  dw 12,sDessGeegaOam_JumpWarning_Frame2
+  dw $80ED,sDessGeegaOam_JumpWarning
+
+sDessGeegaOam_Jumping:
+  dw 2,sDessGeegaOam_Jumping_Frame0
+  dw 2,sDessGeegaOam_Jumping_Frame1
+  dw $80ED,sDessGeegaOam_Jumping
+
+sDessGeegaOam_Landing:
+  dw 4,sDessGeegaOam_Landing_Frame0
+  dw 12,sDessGeegaOam_JumpWarning_Frame2
+  dw 8,sDessGeegaOam_JumpWarning_Frame1
+  dw 4,sDessGeegaOam_Idle_Frame0
+  dw $80ED,sDessGeegaOam_Landing

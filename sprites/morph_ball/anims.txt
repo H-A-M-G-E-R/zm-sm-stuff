@@ -1,0 +1,14 @@
+sMorphBallOam_Idle:
+  dw 16,sMorphBallOam_Idle_Frame0
+  dw 16,sMorphBallOam_Idle_Frame1
+  dw 16,sMorphBallOam_Idle_Frame2
+  dw 16,sMorphBallOam_Idle_Frame1
+  dw $80ED,sMorphBallOam_Idle
+
+sMorphBallOutsideOam_Idle:
+  dw 100,sMorphBallOutsideOam_Idle_Frame0
+  dw 3,sMorphBallOutsideOam_Idle_Frame1
+  dw 6,sMorphBallOutsideOam_Idle_Frame2
+  dw 4,sMorphBallOutsideOam_Idle_Frame3
+  dw 3,sMorphBallOutsideOam_Idle_Frame4
+  dw $80ED,sMorphBallOutsideOam_Idle

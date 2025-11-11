@@ -1,0 +1,40 @@
+sSkreeOam_Idle:
+  dw 8,sSkreeOam_Idle_Frame0
+  dw 8,sSkreeOam_Idle_Frame1
+  dw 8,sSkreeOam_Idle_Frame2
+  dw 8,sSkreeOam_Idle_Frame3
+  dw $80ED,sSkreeOam_Idle
+
+sSkreeOam_Spinning:
+  dw 4,sSkreeOam_Idle_Frame0
+  dw 2,sSkreeOam_Spinning_Frame1
+  dw 2,sSkreeOam_Spinning_Frame2
+  dw 2,sSkreeOam_Spinning_Frame1
+  dw 2,sSkreeOam_Spinning_Frame2
+  dw $80ED,sSkreeOam_Spinning
+
+sSkreeOam_GoingDown:
+  dw 2,sSkreeOam_Idle_Frame0
+  dw 2,sSkreeOam_Idle_Frame1
+  dw 2,sSkreeOam_Idle_Frame2
+  dw 2,sSkreeOam_Idle_Frame3
+  dw $80ED,sSkreeOam_GoingDown
+
+sSkreeOam_Crashing:
+  dw 1,sSkreeOam_Idle_Frame0
+  dw 1,sSkreeOam_Idle_Frame1
+  dw 1,sSkreeOam_Idle_Frame2
+  dw 1,sSkreeOam_Idle_Frame3
+  dw $80ED,sSkreeOam_Crashing
+
+sSkreeExplosionOAM_GoingDown:
+  dw 8,sSkreeExplosionOAM_GoingDown_Frame0
+  dw 6,sSkreeExplosionOAM_GoingDown_Frame1
+  dw 4,sSkreeExplosionOAM_GoingDown_Frame2
+  dw $80ED,sSkreeExplosionOAM_GoingDown
+
+sSkreeExplosionOAM_GoingUp:
+  dw 8,sSkreeExplosionOAM_GoingUp_Frame0
+  dw 6,sSkreeExplosionOAM_GoingUp_Frame1
+  dw 4,sSkreeExplosionOAM_GoingUp_Frame2
+  dw $80ED,sSkreeExplosionOAM_GoingUp

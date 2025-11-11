@@ -1,0 +1,8 @@
+sWaverOam:
+  dw 6,sWaverOam_Frame0
+  dw 6,sWaverOam_Frame1
+  dw 6,sWaverOam_Frame2
+  dw 6,sWaverOam_Frame3
+  dw 6,sWaverOam_Frame4
+  dw 6,sWaverOam_Frame5
+  dw $80ED,sWaverOam

@@ -1,0 +1,1449 @@
+{
+ "game": "sm",
+ "name": "polyp",
+ "gfx": "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",
+ "palette": [
+  4278235264,
+  4294506744,
+  4283443200,
+  4294502400,
+  4294483968,
+  4294457400,
+  4290772992,
+  4293978312,
+  4291344528,
+  4288182344,
+  4285552704,
+  4292899064,
+  4287117512,
+  4287627264,
+  4294502400,
+  4294494208
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sPolypOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -13,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -13,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -13,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -1,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -1,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -1,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -12,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -12,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -1,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -1,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -1,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -1,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -1,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -1,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -11,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -11,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -11,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypOam_Warning_Frame3",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -7,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -7,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 1,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 1,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 1,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -7,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -7,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypOam_Warning_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -7,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -7,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 1,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 1,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 1,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -7,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -7,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -9,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -9,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -9,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypOam_Warning_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -11,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -11,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -11,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypOam_Warning_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -12,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -12,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypOam_AfterSpitting_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -14,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -14,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -14,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Right_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Right_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Right_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 276,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Right_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Left_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Left_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Left_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 276,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Left_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Exploding_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Exploding_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Exploding_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sPolypProjectileOam_Exploding_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

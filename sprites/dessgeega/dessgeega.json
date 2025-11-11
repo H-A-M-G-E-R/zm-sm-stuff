@@ -1,0 +1,2394 @@
+{
+ "game": "sm",
+ "name": "dessgeega",
+ "gfx": "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",
+ "palette": [
+  4288716960,
+  4294506744,
+  4278190080,
+  4294492408,
+  4291326144,
+  4286066880,
+  4281860192,
+  4294478024,
+  4294459504,
+  4291297280,
+  4286054448,
+  4292401192,
+  4288190488,
+  4283979792,
+  4294443080,
+  4287103016
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sDessGeegaOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -23,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -15,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -15,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -28,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -12,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -12,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -28,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -12,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -12,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -16,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 285,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -24,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 285,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -24,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -27,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -11,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -11,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -27,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -11,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -11,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -26,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -18,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -26,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -18,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_JumpWarning_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -13,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -5,
+     "tile": 285,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -21,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -13,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -5,
+     "tile": 285,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -21,
+     "tile": 287,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_JumpWarning_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -19,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -11,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -3,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -19,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -11,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -3,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -24,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -8,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -24,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -8,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Landing_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -31,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -23,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -15,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -31,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -15,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -13,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -13,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -13,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -13,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -29,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -27,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -19,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -29,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -27,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -19,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -23,
+     "y": -5,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -15,
+     "y": -5,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 15,
+     "y": -5,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 7,
+     "y": -5,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Jumping_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -39,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -31,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -23,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -39,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -31,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -16,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -20,
+     "y": -8,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -16,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -16,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 12,
+     "y": -8,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -8,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -32,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -32,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -24,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -32,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -32,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -24,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Jumping_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -40,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -32,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -24,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -40,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -32,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -24,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -17,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -17,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -20,
+     "y": -9,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -9,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -17,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -17,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 12,
+     "y": -9,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -9,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -33,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -33,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -25,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -33,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -33,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -25,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Screaming_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -26,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -18,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -26,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -18,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -27,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -11,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -11,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -27,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -11,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -11,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -18,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -18,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Screaming_Frame2",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -26,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -18,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -26,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -18,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Screaming_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -27,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -19,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -11,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -27,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -19,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -11,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -23,
+     "y": -25,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -15,
+     "y": -9,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -3,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -3,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 7,
+     "y": -25,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 15,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 7,
+     "y": -9,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -3,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -3,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Screaming_Frame4",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -27,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -19,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -11,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -27,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -19,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -11,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -22,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 14,
+     "y": -10,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -10,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDessGeegaOam_Screaming_Frame5",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -28,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -20,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -12,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -28,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -20,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -12,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -23,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -11,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -15,
+     "y": -11,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -23,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -15,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -18,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 7,
+     "y": -26,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 15,
+     "y": -11,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 7,
+     "y": -11,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 15,
+     "y": -4,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 7,
+     "y": -4,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -18,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

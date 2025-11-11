@@ -1,0 +1,614 @@
+{
+ "game": "sm",
+ "name": "reo",
+ "gfx": "AAABAAYGFRU9PS4vChoCEgAABwYJDyo/Qn5RfjUvHQUAAMDAwMCoqNjYwMBIwGzowMAg4CjoVNwk7DhouCCUMAAAAAAAAAAAAAACAAkBBQUAAAAAAAAAAAAAAwEOBwoOAAAAAAAAAAAAAAAAQEDg8AAAAAAAAAAAAABAQKDgEOAABAAIAgQDCgcbEjwoFxwrBAAMAAcADAAUADcQMRA8DgAgABBAIMBQ4NhIPBToONQgADAA4AAwACgA7AiMCDxwAAAAAAAYAhQDCgcbCjwYLwAAAAAYAB8ADAAUAD8YKQgAAAAAABhAKMBQ4NhQPBj0AAAAABgA+AAwACgA/BiUEAAAAAgCBAMKBxsKNDAPHCsAAAgABwAMABQAPxgpCDwOAAAAEEAgwFDg2FAsDPA41AAAEADgADAAKAD8GJQQPHAAAAAAAQQGCgwVChEEGgAOAAABAAcAAQALAA4ADAACBKAYgHgAgEBgoDBAmBQgBBzwAOAAgACgANAAYBgAHAQAAAEBBAQNCxELGAgTBBoADgEABwADAAYAFwAeAAwAAgxAIACAAIAAAIDAAGAA4CAw4ACAAAAAgABAAIBAgEAgQAAAAAAAAAAAAAEABgMLAA4AAAAAAAAAAAEABwAMAAkGAAAAAAAAAACgGAD4gEBAIAAAAAAAAAAA+AD4AIAAwAAEFDhYLEwSJAAbAAAAAAAAOyYnHzMfGwkCAAAAAAAAAExIYKQwWBBglCgA3AAIAAC0MNwQ6ID4gNQACAAAAAAACgoYGAQkCBAUGAEGAAEAABUfJz07Dh8HLzEdGAEAAADQ2HD4iBwo7AQlEA4A8AAAKGCIIPQg1BD7wPEAAAAAAAAfAA8MGggcAAoABgAAAAAADAIABAAAAAQAAAAAAAAAAPgA8DBYEDgAUABgAAAAAAAwQAAgAAAAIAAAAAAAAAAULwAfAA8EEhA8EDgAFAAAPA4ADAUADAAAAAAACAAAACj0APgA8CBICDwIHAAoAAA8cAAwoAAwAAAAAAAQAAAAAB8ECwIJAgcAAwAAAAAAAAAMBQAGAAEAAAAAAAAAAAAA+CDQQJBA4ADAAAAAAAAAADCgAGAAgAAAAAAAAAAAAAQKCAIMBgIBAAAAAAAAAAAADgAMBAgABAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECgIJAQcAAQAAAAAAAAAAAAwABgEAAAAAAAAAAAAAAAAwAICAQACAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAkEDwAFAgMAAgABAAAAAAAPBQoBBAIBAAMAAAAAAAAAYECgAGCAQADAAIAAAAAAwADAAMAAwAAAgAAAAAAAAAAAAwMLAx0dGxsDAxIDNhcDAwQHHBciOyQ3HBYdBCkMAAAAAAYBDwcLGwAQAw4AAQAAAAAHAAgHFA8fDQ0CBwYAAAAAYIBgcKimHRwABwD4AAAAAOAAkKBe0OPg/hiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+ "palette": [
+  4278235264,
+  4294506744,
+  4280825856,
+  4294498304,
+  4289773608,
+  4286615552,
+  4282411008,
+  4294482136,
+  4292890840,
+  4289738872,
+  4287103072,
+  4278249472,
+  4278231040,
+  4278231200,
+  4288735480,
+  4278241528
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sReoOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -20,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -20,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -20,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -19,
+     "y": -18,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -18,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -9,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Moving_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -19,
+     "y": -2,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -2,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -20,
+     "y": -18,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -18,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -19,
+     "y": -3,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -3,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -15,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -19,
+     "y": -3,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -3,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Moving_Frame4",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -1,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -1,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Moving_Frame5",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -19,
+     "y": -16,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -16,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -1,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -1,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sReoOam_Moving_Frame6",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 14,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -2,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

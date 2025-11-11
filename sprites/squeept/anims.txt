@@ -1,0 +1,30 @@
+sSqueeptOam_TurningAround:
+  dw 5,sSqueeptOam_TurningAround_Frame0
+  dw 9,sSqueeptOam_TurningAround_Frame1
+  dw 7,sSqueeptOam_TurningAround_Frame2
+  dw 3,sSqueeptOam_TurningAround_Frame3
+  dw 10,sSqueeptOam_TurningAround_Frame4
+  dw $80ED,sSqueeptOam_TurningAround
+
+sSqueeptOam_TurningAround_Unused:
+  dw 5,sSqueeptOam_TurningAround_Frame4
+  dw 4,sSqueeptOam_TurningAround_Frame3
+  dw 3,sSqueeptOam_TurningAround_Frame2
+  dw 2,sSqueeptOam_TurningAround_Frame1
+  dw 1,sSqueeptOam_TurningAround_Frame0
+  dw $80ED,sSqueeptOam_TurningAround_Unused
+
+sSqueeptOam_GoingDown:
+  dw 4,sSqueeptOam_GoingDown_Frame0
+  dw 4,sSqueeptOam_GoingDown_Frame1
+  dw $80ED,sSqueeptOam_GoingDown
+
+sSqueeptOam_GoingUp:
+  dw 2,sSqueeptOam_GoingUp_Frame0
+  dw 1,sSqueeptOam_GoingUp_Frame1
+  dw 2,sSqueeptOam_GoingUp_Frame2
+  dw 1,sSqueeptOam_GoingUp_Frame3
+  dw 2,sSqueeptOam_GoingUp_Frame4
+  dw 1,sSqueeptOam_GoingUp_Frame5
+  dw 2,sSqueeptOam_GoingUp_Frame3
+  dw $80ED,sSqueeptOam_GoingUp

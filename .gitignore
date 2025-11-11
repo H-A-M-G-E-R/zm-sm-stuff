@@ -1,0 +1,9 @@
+*.map
+*.gba
+*.sfc
+__pycache__
+
+animation_frames/
+animations/
+sprite_tiles_original/
+wip/

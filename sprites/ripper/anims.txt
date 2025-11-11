@@ -1,0 +1,16 @@
+sRipperOam_Moving:
+  dw 16,sRipperOam_Moving_Frame0
+  dw 16,sRipperOam_Moving_Frame1
+  dw 16,sRipperOam_Moving_Frame2
+  dw 16,sRipperOam_Moving_Frame1
+  dw $80ED,sRipperOam_Moving
+
+sRipperOam_TurningAround:
+  dw 3,sRipperOam_TurningAround_Frame0
+  dw 3,sRipperOam_TurningAround_Frame1
+  dw $80ED,sRipperOam_TurningAround
+
+sRipperOam_TurningAroundPart2:
+  dw 3,sRipperOam_TurningAround_Frame1
+  dw 3,sRipperOam_TurningAround_Frame0
+  dw $80ED,sRipperOam_TurningAroundPart2

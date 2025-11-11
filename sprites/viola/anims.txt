@@ -1,0 +1,18 @@
+sViolaOam_Moving:
+  dw 10,sViolaOam_Moving_Frame0
+  dw 10,sViolaOam_Moving_Frame1
+  dw 10,sViolaOam_Moving_Frame2
+  dw 10,sViolaOam_Moving_Frame3
+  dw 10,sViolaOam_Moving_Frame4
+  dw 10,sViolaOam_Moving_Frame5
+  dw 10,sViolaOam_Moving_Frame6
+  dw 10,sViolaOam_Moving_Frame7
+  dw 10,sViolaOam_Moving_Frame8
+  dw 10,sViolaOam_Moving_Frame7
+  dw 10,sViolaOam_Moving_Frame6
+  dw 10,sViolaOam_Moving_Frame5
+  dw 10,sViolaOam_Moving_Frame4
+  dw 10,sViolaOam_Moving_Frame3
+  dw 10,sViolaOam_Moving_Frame2
+  dw 10,sViolaOam_Moving_Frame1
+  dw $80ED,sViolaOam_Moving

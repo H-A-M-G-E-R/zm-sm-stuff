@@ -1,0 +1,540 @@
+{
+ "game": "sm",
+ "name": "dragon",
+ "gfx": "AAAAAAAAAAAADAQWBBYCCwAAAAAAAAAAAAwEGgQaAgwAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQgEGAoQBhAMEAwAGBEoZZgADAQeDB4IHAgcEBgAOQH1AAAAAAAAAAA4AEAkkFwA8AAAAAAAAAAAADg4fGD8gPAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAMAMABAEMBQgDAA4IBAwQEuwAAwMHAw8GDwgOAAwAHACaAAAAgACAAAAAABwAUBaAfgAAAIAAgAAAAAAAHCx+IP4AAAAAAAAAAAAAAAAAAEAwAAAAAAAAAAAAAAAAAAAAQAAAAQADAQQBCAcKBBwAEuwAAAABAAMDBwQPAA4AHACaAACAAABAAMAAgAAAPgAQVgAAAICAwIDAAIAAAAA+LH4AAAAAAwAEAgoFCAYUCHKMAAAAAAADAwcGDwAOABwA/gAAwACggABgAMAAADgAzigAAADAQODA4ADAAAAAODD+DwAPEBsANQApCC4GNRBSEQAPAB8AHwA/CDcGORAvEG8I9rBPyDfoF8A+QDwA+ADgAP4A/gD+AP4A/AD4AOAAwAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAOBAIMBQwFCAMIBggEFCgyTAAGAg8CDwYPAA4ADAA8AH4ABAECAAEAAAAAAAAAAAAAAAcAAQAAAAAAAAAAAAAAAAGGj3DjAUSELk4PLxYmGAAABwCfAP8EewgxCTAGOQAfMg3ZRnEOaBc0AxgbejnaGQD7QL0A/4D+AP4Y5ijHGOeAAAAAAADwAAzwhjwBGIEOAIAAAAAAAPAA/BC+Dh8GjwBLM3xJyCfHVyUPHwcHAAgAcDALSDcFOABYDAAHCAAHCQa0M2SDHiGxgI6OPhpuDgD9MM6A/wD/gH+OcRLhDvFAoIAAAIBggBzgItwBnAHMAOAAgAAAAGAAfAi+Bp8Gj8BTEpxBgCdHDywPHwcPAAhAsxBrAH8EOAgQCAAHAAAHKSb0c2SDnqHxwM7OvppuDiDdcI6A/4B/QD9CMZJhDvEA/IBAAIBggBzgwjyDGoBNQPwAwAAAAGAAvAj+DJ8GjwkGtDNkgx4hsYCOjj4abg4A/zDPgP8A/4B/jnES4Q7xQLaAXACAQIAY4OIcsgrZBBz+ANwAgADAAPgI/gy+Bt9KCUYBUhF2ETwLNAMcAw4BCHcAfxBvEG8INwA/AB8ADwDAAMAAgACAAIAAgACAAMAAgACAAAAAAAAAAAAAAACAAB0BHAMQBggDCwEFAwcABAATABMAHwAfAQwBBgMEAAeJBrQzcA8CPbiAk4MnB3MDAP8wzwD/CP+Af4N8BvgD/AAkAEI0tRgCMrAFBQQEAAg0NGpqwfUnJ4i4SE0QFAgIBwABAgMEBh0JIBYwLUwBQAAHAAMABwQbAD8QLwxzAH/mAbxDQD8ADphGwjyBegHiAP8A/gD+APwA/AD6AuMAw8AGQIAgQKAAgGAAQAAAAAAAxgDAAGBA4EDgAEAAAAAAAQYAAQECAQwEEAsYDi4BQAABAAAAAQAHAA8IFwYxAD/xAN4h4B84h8wjYB/APIBwAP8A/wD/AP4A/gD9APAA4CHGOMAMoAQYhAiAAECAQIAApwB4EDwIHACMAIAAwADAAAcAAQECAQwGEgsYBiYhYAAAAAAAAQADAg0IBwYZIB/xAN4h4B84h8wjYB/APIBwAP8A/wD/AP4A/gD9APAA4HCGCPAEkAQIgADAACDAIEAA9hB4CBwADACAAMBA4ABgDwAPEBcINwApCG4mdTCWAQAPAB8AHwA/CDcmWTBPAP8I9rBPyDfoF9gncA7APADwAP4A/wD+AP4A/gD8APAAgA4BBwADAAABAAAAAAAAAAAADwAHAAMAAQAAAAAAAAAAAMAA8YB/4B4AeAAAAAAAAACAAMEA8QD+AHgAAAAAAAABAgABAQIBBAAIBxQGFgEhAAMAAQADAAcADwQbBhkBPvgAXqHgHziHzCNhHkA9sI0A/wD/AP8A/gD+AP0A+YB5AHAAyDC0OKgcVgwsAgoAAHBw+PjM/MTsYnYyPgwOAQFCwT6xBoFMgztEHiEBHgAHQL8wzwD/AP8APwAfAA8AAwDAAOAA8ADwEOhgnAD8APgAgADAAOAA4ADwAPwA/AD4AAAAAAAAAAAAADAAWBCAeAAAAAAAAAAAAAAAMCB4IPh2MBlYA0AmQR0iDxAADwADME8YZwB/AD8AHwAPAAMAAcAgwDAA+AD4iHQwzIB4APAAwADgAPAA8AD4APwA+ADwQKCAAACAYIAY4EQwBDhMEADgAIAAgADgAPgY/Ai8ANx6OFkYQwAmQR0iDxAADwADOEcYZwB/AD8AHwAPAAMAAcAgwDAA+AD4iHQwzIB4APAAwADgAPAA8AD4APwA+ADwSJBggDCAUCBgAAAAgACAAADYAOAAMCBwAGAAAACAAIDMQ6gH2EdYBzwDFwANAAECQL8A/kC+AH8APwAfAA8AAQCAAAAADADGGOb4BrAMwDAAAAAAAAgABADcAPwA+ADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgoBycTIwgQDhAHCAAPAAMINwc4AzwAHwAfAAcACwABEAjQyICcIBxoFKBcgHgA8ADwwDCAeAD4APwA/AD4APAAAAAAAAAAAAAAAAACAQQDAAAAAAAAAAAAAAAAAAMABDAAQDBAMEQwRDJIJijEUCgAMABQAFAAVAB2AG4A7AD4CCcAHw4RCQQGERsgAiENTAA/AB8AHwAPAB8APwA/DHMgwRDiAPzINGwSGOIY4IhwAP8A/gD0AOwA7gDaANgA6AcIDxAPEAcgGCguBgBAHV0ADwAfAB8APwg3BjkAfx1iCPawT8g3aBdYJ3AOQDyAcAD+AP4A/gD+AP4A/ADwAOAHCA8QBwgPEAgQDhYAEAwcAA8AHwAPAB8AHwYZAB8MEwj2sE/IN2gXGCcwDiAcgLgA/gD+AP4A/gD+APwA+IBwAAAEAAAMAAIgEAIiCAgICAAABAQMDAICMDAwMgAIEBgIAASIAEAAAAACAQIwEBAACAiMjMDAAAACAhMTCBgAAAgAAAAAAkAAAAAAgBAQAAAICAAAAgJAQAAAgIAAEEBABIAAAAAAAAEAAAAAAAAAAISEgIAAAAEBAAAICAAAAAAAAAAAAAACAQAGCQUDCwMKAAAAAAAAAwMHBw4PDA8MDgAAAAAAACDAEGCAsMhQ4CgAAAAAAADg4PDwcPA4eBg4AQ4AOQBgD0+fUT+gP6A/oA8PPz9/f3B/4PHA4MDgwOAAAECAIEAQIICQyNDASOBoAADAwODg8PBw8Dj4OHgYeAAHAQUDAAUICTQjZCViBEMABAEGAAcADwA/AF8gXwB/yLSgGIR4kGwY5jLDZodmh4B8APgA/CD8AP4C/QT5BvkAQBNTHl4AQBEgHyAHGAAPAH8TbB5hAH8APwA/AB8AD0AwIBggGGAYwDDAMADgAIAA4ADwAPAA8ADgAOAA4ACADk4hQDBBHyAVIAwQBwgBAg5xAH8AfwA/AD8AHwAPAAOAYADAANgA7MA88AygGIBwAMAAgACQAMwA6AD4APAAwAcXABARCAYIBQgABAECAAEHGAAfAB8ADwAPAAcAAwABQDBAMIA4IBzgHPAMoBiAcADgAOAA8AD4APgA+ADwAOACAgEhABAAAAACAQAAAAAAAAIyMxAQAAADAwEBAAAAAAAEAAIQFAAACCgQAAAAAAAEBAYGhJQAACQsGBgAAAAAAAAAgAAAACAAAAAAAQAAAAAAgIAAACQkAAAQEAEBAAAAAAABAAAQFAAAACAAAABAAAAFBQAABBQAACQkCAhAQAMLAQUAAgEAAAAAAAAAAAAMDwYHAwMBAQAAAAAAAAAA8Djw9GBoGNhYOBIGBAQBAQg4DPyY+OT8ZHwcHgIGAAEfUh9dAiIAGAAHAQAAAAAAYHJgfT0/Hx8HBwEBAAAAAOBg9PBwdHBAOqgIyiQVBQMYeAz8jPyMzMbu9v47PwYH",
+ "palette": [
+  4278235264,
+  4294506744,
+  4278190080,
+  4294488312,
+  4283484160,
+  4279261208,
+  4278190080,
+  4294473888,
+  4290789496,
+  4286586936,
+  4282921008,
+  4294500352,
+  4294477824,
+  4287115264,
+  4293404672,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sDragonOam_Spitting_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -26,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -10,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -26,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -10,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": 3,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -10,
+     "y": 19,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonOam_Spitting_Frame1",
+   "spritemap": [
+    {
+     "x": -15,
+     "y": -27,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -7,
+     "y": -11,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 1,
+     "y": -27,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 9,
+     "y": -11,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": 3,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -9,
+     "y": 19,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": 6,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -23,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -7,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDragonOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -22,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -6,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -22,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -6,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": 4,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -23,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -15,
+     "tile": 276,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -7,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": 5,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonOam_TurningAround_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -23,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -23,
+     "tile": 307,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -15,
+     "tile": 310,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -7,
+     "tile": 313,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": 5,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonOam_TurningAround_Frame1",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -22,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -6,
+     "tile": 322,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -7,
+     "y": 5,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonFireballOam_Moving_Frame0",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -4,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDragonFireballOam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonFireballOam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonFireballOam_Exploding_Frame0",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -4,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sDragonFireballOam_Exploding_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 328,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sDragonFireballOam_Exploding_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 330,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

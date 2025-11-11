@@ -1,0 +1,1159 @@
+{
+ "game": "sm",
+ "name": "skultera",
+ "gfx": "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",
+ "palette": [
+  4278235264,
+  4294506744,
+  4278190080,
+  4292929784,
+  4289773816,
+  4285558968,
+  4278190080,
+  4290793720,
+  4290775176,
+  4285018248,
+  4283432984,
+  4278190080,
+  4278190080,
+  4278190080,
+  4294502472,
+  4293939200
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sSkulteraOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -31,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -23,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -17,
+     "y": -15,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -15,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -15,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -7,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -7,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -15,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 5,
+     "y": -12,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 11,
+     "y": -17,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 11,
+     "y": -9,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -18,
+     "y": -23,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -31,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -23,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -31,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -7,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -7,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -7,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -18,
+     "y": -15,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -15,
+     "tile": 276,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -15,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -14,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -11,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": -13,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -18,
+     "y": -23,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -31,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -23,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -31,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -18,
+     "y": -15,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -10,
+     "y": -15,
+     "tile": 276,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -11,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 7,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 11,
+     "y": -13,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_Idle_Frame3",
+   "spritemap": [
+    {
+     "x": -10,
+     "y": -30,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -18,
+     "y": -22,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -18,
+     "y": -14,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -10,
+     "y": -14,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 1,
+     "y": -11,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 5,
+     "y": -13,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": -14,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame0",
+   "spritemap": [
+    {
+     "x": -18,
+     "y": -23,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -31,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -23,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -31,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -7,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -7,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -7,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -18,
+     "y": -15,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -15,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -15,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -15,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -13,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 11,
+     "y": -12,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame1",
+   "spritemap": [
+    {
+     "x": -14,
+     "y": -31,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -14,
+     "y": -15,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -14,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -12,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 6,
+     "y": -14,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame2",
+   "spritemap": [
+    {
+     "x": -15,
+     "y": -31,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -15,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -15,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -7,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -15,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": -14,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame3",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -31,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -15,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -19,
+     "y": -15,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -3,
+     "y": -13,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame4",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -31,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -23,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -31,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": -15,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -15,
+     "tile": 276,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -18,
+     "y": -15,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame5",
+   "spritemap": [
+    {
+     "x": 3,
+     "y": -22,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -13,
+     "y": -30,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -5,
+     "y": -14,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -13,
+     "y": -14,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -13,
+     "y": -6,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -15,
+     "y": -12,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -18,
+     "y": -15,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame6",
+   "spritemap": [
+    {
+     "x": 6,
+     "y": -23,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -31,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -15,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -2,
+     "y": -15,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -15,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 5,
+     "y": -7,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -3,
+     "y": -7,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -11,
+     "y": -7,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -15,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -17,
+     "y": -12,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -19,
+     "y": -14,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkulteraOam_TurningAround_Frame7",
+   "spritemap": [
+    {
+     "x": 10,
+     "y": -23,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -31,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -23,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -31,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 9,
+     "y": -7,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -7,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": -7,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": -15,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -15,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -15,
+     "tile": 274,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -12,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -13,
+     "y": -15,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -18,
+     "y": -14,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

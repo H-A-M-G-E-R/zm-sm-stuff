@@ -1,0 +1,59 @@
+sBaristuteOam_Idle:
+  dw 16,sBaristuteOam_Idle_Frame0
+  dw 6,sBaristuteOam_Idle_Frame1
+  dw 16,sBaristuteOam_Idle_Frame2
+  dw 6,sBaristuteOam_Idle_Frame1
+  dw $80ED,sBaristuteOam_Idle
+
+sBaristuteOam_Warning:
+  dw 6,sBaristuteOam_Idle_Frame0
+  dw 8,sBaristuteOam_Warning_Frame1
+  dw 16,sBaristuteOam_Warning_Frame2
+  dw $80ED,sBaristuteOam_Warning
+
+sBaristuteOam_Jumping:
+  dw 2,sBaristuteOam_Jumping_Frame0
+  dw 2,sBaristuteOam_Jumping_Frame1
+  dw $80ED,sBaristuteOam_Jumping
+
+sBaristuteOam_Landing:
+  dw 6,sBaristuteOam_Idle_Frame0
+  dw 8,sBaristuteOam_Warning_Frame2
+  dw 12,sBaristuteOam_Warning_Frame1
+  dw $80ED,sBaristuteOam_Landing
+
+sBaristuteOam_WalkingSlow:
+  dw 8,sBaristuteOam_Idle_Frame0
+  dw 8,sBaristuteOam_WalkingSlow_Frame1
+  dw 8,sBaristuteOam_WalkingSlow_Frame2
+  dw 8,sBaristuteOam_WalkingSlow_Frame3
+  dw 8,sBaristuteOam_WalkingSlow_Frame4
+  dw 8,sBaristuteOam_WalkingSlow_Frame5
+  dw $80ED,sBaristuteOam_WalkingSlow
+
+sBaristuteOam_WalkingFast:
+  dw 5,sBaristuteOam_Idle_Frame0
+  dw 5,sBaristuteOam_WalkingSlow_Frame1
+  dw 5,sBaristuteOam_WalkingSlow_Frame2
+  dw 5,sBaristuteOam_WalkingSlow_Frame3
+  dw 5,sBaristuteOam_WalkingSlow_Frame4
+  dw 5,sBaristuteOam_WalkingSlow_Frame5
+  dw $80ED,sBaristuteOam_WalkingFast
+
+sBaristuteOam_WalkingVeryFast:
+  dw 3,sBaristuteOam_Idle_Frame0
+  dw 3,sBaristuteOam_WalkingSlow_Frame1
+  dw 3,sBaristuteOam_WalkingSlow_Frame2
+  dw 3,sBaristuteOam_WalkingSlow_Frame3
+  dw 3,sBaristuteOam_WalkingSlow_Frame4
+  dw 3,sBaristuteOam_WalkingSlow_Frame5
+  dw $80ED,sBaristuteOam_WalkingVeryFast
+
+sBaristuteOam_WalkingExtremelyFast:
+  dw 2,sBaristuteOam_Idle_Frame0
+  dw 2,sBaristuteOam_WalkingSlow_Frame1
+  dw 2,sBaristuteOam_WalkingSlow_Frame2
+  dw 2,sBaristuteOam_WalkingSlow_Frame3
+  dw 2,sBaristuteOam_WalkingSlow_Frame4
+  dw 2,sBaristuteOam_WalkingSlow_Frame5
+  dw $80ED,sBaristuteOam_WalkingExtremelyFast

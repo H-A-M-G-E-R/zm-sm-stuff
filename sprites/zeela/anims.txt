@@ -1,0 +1,83 @@
+sZeelaOam_OnGround:
+  dw 12,sZeelaOam_OnGround_Frame0
+  dw 12,sZeelaOam_OnGround_Frame1
+  dw 12,sZeelaOam_OnGround_Frame2
+  dw 12,sZeelaOam_OnGround_Frame3
+  dw $80ED,sZeelaOam_OnGround
+
+sZeelaOam_TurningEdgeLeft:
+  dw 2,sZeelaOam_TurningEdgeLeft_Frame0
+  dw 2,sZeelaOam_TurningEdgeLeft_Frame1
+  dw 2,sZeelaOam_TurningEdgeLeft_Frame2
+  dw $80ED,sZeelaOam_TurningEdgeLeft
+
+sZeelaOam_TurningEdgeRight:
+  dw 2,sZeelaOam_TurningEdgeLeft_Frame2
+  dw 2,sZeelaOam_TurningEdgeLeft_Frame1
+  dw 2,sZeelaOam_TurningEdgeLeft_Frame0
+  dw $80ED,sZeelaOam_TurningEdgeRight
+
+sZeelaOam_OnWall:
+  dw 12,sZeelaOam_OnWall_Frame0
+  dw 12,sZeelaOam_OnWall_Frame1
+  dw 12,sZeelaOam_OnWall_Frame2
+  dw 12,sZeelaOam_OnWall_Frame3
+  dw $80ED,sZeelaOam_OnWall
+
+sZeelaOam_TurningCornerRight:
+  dw 2,sZeelaOam_TurningCornerRight_Frame0
+  dw 2,sZeelaOam_TurningCornerRight_Frame1
+  dw 2,sZeelaOam_TurningCornerRight_Frame2
+  dw $80ED,sZeelaOam_TurningCornerRight
+
+sZeelaOam_TurningCornerLeft:
+  dw 2,sZeelaOam_TurningCornerLeft_Frame0
+  dw 2,sZeelaOam_TurningCornerLeft_Frame1
+  dw 2,sZeelaOam_TurningCornerLeft_Frame2
+  dw $80ED,sZeelaOam_TurningCornerLeft
+
+sZeelaOam_WalkingOnSlope:
+  dw 12,sZeelaOam_WalkingOnSlope_Frame0
+  dw 12,sZeelaOam_WalkingOnSlope_Frame1
+  dw 12,sZeelaOam_WalkingOnSlope_Frame2
+  dw 12,sZeelaOam_WalkingOnSlope_Frame3
+  dw $80ED,sZeelaOam_WalkingOnSlope
+
+sZeelaOam_FallingOnGround:
+  dw 12,sZeelaOam_FallingOnGround_Frame0
+  dw 12,sZeelaOam_FallingOnGround_Frame1
+  dw 12,sZeelaOam_FallingOnGround_Frame2
+  dw 12,sZeelaOam_FallingOnGround_Frame3
+  dw 12,sZeelaOam_FallingOnGround_Frame4
+  dw 12,sZeelaOam_FallingOnGround_Frame5
+  dw 12,sZeelaOam_FallingOnGround_Frame6
+  dw 12,sZeelaOam_FallingOnGround_Frame7
+  dw $80ED,sZeelaOam_FallingOnGround
+
+sZeelaOam_FallingOnWall:
+  dw 12,sZeelaOam_FallingOnWall_Frame0
+  dw 12,sZeelaOam_FallingOnWall_Frame1
+  dw 12,sZeelaOam_FallingOnWall_Frame2
+  dw 12,sZeelaOam_FallingOnWall_Frame3
+  dw 12,sZeelaOam_FallingOnWall_Frame4
+  dw 12,sZeelaOam_FallingOnWall_Frame5
+  dw 12,sZeelaOam_FallingOnWall_Frame6
+  dw 12,sZeelaOam_FallingOnWall_Frame7
+  dw $80ED,sZeelaOam_FallingOnWall
+
+sZeelaEyesOam_Idle:
+  dw 255,sZeelaEyesOam_Idle_Frame0
+  dw $80ED,sZeelaEyesOam_Idle
+
+sZeelaEyesOam_Spinning_Unused:
+  dw 5,sZeelaEyesOam_Spinning_Unused_Frame0
+  dw 12,sZeelaEyesOam_Spinning_Unused_Frame1
+  dw 5,sZeelaEyesOam_Spinning_Unused_Frame0
+  dw 10,sZeelaEyesOam_Idle_Frame0
+  dw $80ED,sZeelaEyesOam_Spinning_Unused
+
+sZeelaEyesOam_Exploding:
+  dw 3,sZeelaEyesOam_Exploding_Frame0
+  dw 3,sZeelaEyesOam_Exploding_Frame1
+  dw 3,sZeelaEyesOam_Exploding_Frame2
+  dw $80ED,sZeelaEyesOam_Exploding

@@ -1,0 +1,41 @@
+sGerutaOam_Idle:
+  dw 12,sGerutaOam_Idle_Frame0
+  dw 12,sGerutaOam_Idle_Frame1
+  dw $80ED,sGerutaOam_Idle
+
+sGerutaOam_Warning:
+  dw 4,sGerutaOam_Idle_Frame1
+  dw 8,sGerutaOam_Warning_Frame1
+  dw 16,sGerutaOam_Warning_Frame2
+  dw $80ED,sGerutaOam_Warning
+
+sGerutaOam_Launching:
+  dw 6,sGerutaOam_Launching_Frame0
+  dw 6,sGerutaOam_Launching_Frame1
+  dw 6,sGerutaOam_Launching_Frame2
+  dw 6,sGerutaOam_Launching_Frame3
+  dw $80ED,sGerutaOam_Launching
+
+sGerutaOam_GoingDown:
+  dw 3,sGerutaOam_GoingDown_Frame0
+  dw 3,sGerutaOam_GoingDown_Frame1
+  dw 3,sGerutaOam_GoingDown_Frame2
+  dw 3,sGerutaOam_GoingDown_Frame3
+  dw $80ED,sGerutaOam_GoingDown
+
+sGerutaOam_Bouncing:
+  dw 6,sGerutaOam_Bouncing_Frame0
+  dw 6,sGerutaOam_Bouncing_Frame1
+  dw $80ED,sGerutaOam_Bouncing
+
+sGerutaOam_GoingUp:
+  dw 2,sGerutaOam_GoingUp_Frame0
+  dw 2,sGerutaOam_GoingUp_Frame1
+  dw 2,sGerutaOam_GoingUp_Frame2
+  dw 2,sGerutaOam_GoingUp_Frame3
+  dw $80ED,sGerutaOam_GoingUp
+
+sGerutaOam_BouncingOnCeiling:
+  dw 8,sGerutaOam_BouncingOnCeiling_Frame0
+  dw 8,sGerutaOam_BouncingOnCeiling_Frame1
+  dw $80ED,sGerutaOam_BouncingOnCeiling

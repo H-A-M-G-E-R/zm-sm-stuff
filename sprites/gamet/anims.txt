@@ -1,0 +1,13 @@
+sGametOam_Idle:
+  dw 4,sGametOam_Idle_Frame0
+  dw 3,sGametOam_Idle_Frame1
+  dw 4,sGametOam_Idle_Frame2
+  dw 3,sGametOam_Idle_Frame1
+  dw $80ED,sGametOam_Idle
+
+sGametOam_Moving:
+  dw 2,sGametOam_Moving_Frame0
+  dw 1,sGametOam_Moving_Frame1
+  dw 3,sGametOam_Moving_Frame2
+  dw 1,sGametOam_Moving_Frame1
+  dw $80ED,sGametOam_Moving

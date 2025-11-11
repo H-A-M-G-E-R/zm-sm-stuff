@@ -1,0 +1,21 @@
+sReoOam_Idle:
+  dw 4,sReoOam_Idle_Frame0
+  dw 2,sReoOam_Idle_Frame1
+  dw 2,sReoOam_Idle_Frame2
+  dw 2,sReoOam_Idle_Frame1
+  dw $80ED,sReoOam_Idle
+
+sReoOam_Moving:
+  dw 2,sReoOam_Moving_Frame0
+  dw 2,sReoOam_Moving_Frame1
+  dw 2,sReoOam_Moving_Frame2
+  dw 2,sReoOam_Moving_Frame1
+  dw 2,sReoOam_Moving_Frame4
+  dw 1,sReoOam_Moving_Frame5
+  dw 1,sReoOam_Moving_Frame6
+  dw 1,sReoOam_Moving_Frame5
+  dw 2,sReoOam_Moving_Frame4
+  dw 1,sReoOam_Moving_Frame5
+  dw 1,sReoOam_Moving_Frame6
+  dw 1,sReoOam_Moving_Frame5
+  dw $80ED,sReoOam_Moving

@@ -1,0 +1,13 @@
+sZebOam_Idle:
+  dw 4,sZebOam_Idle_Frame0
+  dw 3,sZebOam_Idle_Frame1
+  dw 4,sZebOam_Idle_Frame2
+  dw 3,sZebOam_Idle_Frame1
+  dw $80ED,sZebOam_Idle
+
+sZebOam_Moving:
+  dw 3,sZebOam_Idle_Frame0
+  dw 1,sZebOam_Idle_Frame1
+  dw 2,sZebOam_Idle_Frame2
+  dw 1,sZebOam_Idle_Frame1
+  dw $80ED,sZebOam_Moving

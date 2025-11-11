@@ -1,0 +1,2673 @@
+{
+ "game": "sm",
+ "name": "baristute",
+ "gfx": "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",
+ "palette": [
+  4283478136,
+  4294506744,
+  4278190080,
+  4289773768,
+  4287139992,
+  4284508272,
+  4281876552,
+  4290830392,
+  4287152128,
+  4283465728,
+  4279257088,
+  4292409344,
+  4291297280,
+  4285530112,
+  4294443256,
+  4291297280,
+  4283478136,
+  4294506744,
+  4278190080,
+  4291870888,
+  4289237112,
+  4286605392,
+  4283973672,
+  4294498344,
+  4292907008,
+  4288174080,
+  4281348096,
+  4294502440,
+  4289200128,
+  4285020160,
+  4292358392,
+  4285012104,
+  4283478136,
+  4294506744,
+  4278190080,
+  4292923536,
+  4290285656,
+  4287653936,
+  4285020160,
+  4294490152,
+  4293427200,
+  4289742848,
+  4282914816,
+  4294496256,
+  4287627264,
+  4283973672,
+  4288706808,
+  4282398856,
+  4283478136,
+  4294506744,
+  4278190080,
+  4294492264,
+  4292382728,
+  4289744896,
+  4286064640,
+  4294483968,
+  4294453280,
+  4289200128,
+  4281860096,
+  4294488168,
+  4285530112,
+  4281876552,
+  4285042936,
+  4278210712,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sBaristuteOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -32,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -24,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -32,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -24,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -25,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -9,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -39,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -35,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": -9,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 19,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": -11,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -25,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -9,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -39,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -35,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -32,
+     "y": -9,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -35,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -11,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_WalkingSlow_Frame1",
+   "spritemap": [
+    {
+     "x": -30,
+     "y": -32,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -30,
+     "y": -16,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -41,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -33,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -25,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -33,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -25,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -18,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -19,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -19,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 19,
+     "y": -12,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": -12,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -38,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -26,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -10,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -40,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -36,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -35,
+     "y": -14,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -38,
+     "y": -15,
+     "tile": 322,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -15,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_WalkingSlow_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -34,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -26,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -34,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -26,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -20,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -20,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -20,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -40,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -26,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -10,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -37,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 20,
+     "y": -14,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": -13,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -45,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -31,
+     "y": -37,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -31,
+     "y": -21,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -40,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -37,
+     "y": -20,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -41,
+     "y": -22,
+     "tile": 322,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -21,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_WalkingSlow_Frame3",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -31,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -23,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -31,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -13,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -15,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -15,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -29,
+     "y": -28,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -29,
+     "y": -12,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -38,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -33,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 15,
+     "y": -29,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 15,
+     "y": -13,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -38,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -33,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 18,
+     "y": -9,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 21,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 9,
+     "y": -11,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -33,
+     "y": -8,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -37,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -24,
+     "y": -10,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_WalkingSlow_Frame4",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -33,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -25,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -33,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -25,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -16,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -41,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -36,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 13,
+     "y": -29,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 13,
+     "y": -13,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 17,
+     "y": -14,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 21,
+     "y": -17,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -16,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -29,
+     "y": -29,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -29,
+     "y": -13,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -39,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -35,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -32,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -36,
+     "y": -13,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -24,
+     "y": -12,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_WalkingSlow_Frame5",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -34,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -26,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -34,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -26,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -18,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -18,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 13,
+     "y": -44,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 13,
+     "y": -36,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 13,
+     "y": -20,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -38,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": -17,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 20,
+     "y": -20,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -19,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -31,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -15,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -28,
+     "y": -41,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -36,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -30,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -33,
+     "y": -13,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -21,
+     "y": -13,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_Warning_Frame1",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -26,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -32,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -24,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -32,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -24,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -16,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -18,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -18,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -25,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -9,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -38,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -35,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 20,
+     "y": -12,
+     "tile": 322,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": -13,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -28,
+     "y": -25,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -28,
+     "y": -9,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -38,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -35,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -32,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -36,
+     "y": -11,
+     "tile": 322,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -13,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_Warning_Frame2",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -23,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -27,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -19,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -27,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -19,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -13,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -15,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -15,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 10,
+     "y": -35,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -28,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -12,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -31,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": -9,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 21,
+     "y": -10,
+     "tile": 322,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -10,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -26,
+     "y": -34,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -29,
+     "y": -27,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -29,
+     "y": -11,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -17,
+     "y": -31,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -32,
+     "y": -9,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -37,
+     "y": -9,
+     "tile": 322,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -10,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_Jumping_Frame0",
+   "spritemap": [
+    {
+     "x": -27,
+     "y": -46,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -30,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -46,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -30,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -40,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -32,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -40,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -32,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -14,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 17,
+     "y": -15,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 20,
+     "y": -15,
+     "tile": 328,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -16,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -28,
+     "y": -14,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -33,
+     "y": -15,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -36,
+     "y": -15,
+     "tile": 328,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -24,
+     "y": -16,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -38,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -38,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -28,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -28,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_Jumping_Frame1",
+   "spritemap": [
+    {
+     "x": -27,
+     "y": -48,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -32,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -48,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -32,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -42,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -34,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -42,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -34,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -16,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 17,
+     "y": -17,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 20,
+     "y": -17,
+     "tile": 328,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -18,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -28,
+     "y": -16,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -33,
+     "y": -17,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -36,
+     "y": -17,
+     "tile": 328,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -24,
+     "y": -18,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -40,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -40,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -29,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -29,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -24,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -30,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -22,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -30,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -22,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -17,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 320,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -38,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -26,
+     "y": -24,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -26,
+     "y": -8,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 10,
+     "y": -8,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -14,
+     "y": -31,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 15,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 18,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -11,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -38,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 10,
+     "y": -24,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -31,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -31,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -34,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -22,
+     "y": -11,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sBaristuteOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -25,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -31,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -23,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -31,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -23,
+     "tile": 272,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -16,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -17,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -17,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -39,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -25,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 11,
+     "y": -9,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -33,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 19,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": -12,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -39,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -25,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -27,
+     "y": -9,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -33,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -32,
+     "y": -10,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -35,
+     "y": -11,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -23,
+     "y": -12,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

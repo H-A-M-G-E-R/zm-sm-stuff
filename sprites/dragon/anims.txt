@@ -1,0 +1,37 @@
+sDragonOam_Idle:
+  dw 12,sDragonOam_Idle_Frame0
+  dw 12,sDragonOam_Idle_Frame1
+  dw 12,sDragonOam_Idle_Frame2
+  dw $80ED,sDragonOam_Idle
+
+sDragonOam_Warning:
+  dw 6,sDragonOam_Idle_Frame0
+  dw 6,sDragonOam_Idle_Frame1
+  dw $80ED,sDragonOam_Warning
+
+sDragonOam_Spitting:
+  dw 4,sDragonOam_Spitting_Frame0
+  dw 4,sDragonOam_Spitting_Frame1
+  dw $80ED,sDragonOam_Spitting
+
+sDragonOam_TurningAround:
+  dw 3,sDragonOam_TurningAround_Frame0
+  dw 3,sDragonOam_TurningAround_Frame1
+  dw $80ED,sDragonOam_TurningAround
+
+sDragonOam_TurningAroundPart2:
+  dw 3,sDragonOam_TurningAround_Frame1
+  dw 3,sDragonOam_TurningAround_Frame0
+  dw $80ED,sDragonOam_TurningAroundPart2
+
+sDragonFireballOam_Moving:
+  dw 1,sDragonFireballOam_Moving_Frame0
+  dw 4,sDragonFireballOam_Moving_Frame1
+  dw 4,sDragonFireballOam_Moving_Frame2
+  dw $80ED,sDragonFireballOam_Moving
+
+sDragonFireballOam_Exploding:
+  dw 4,sDragonFireballOam_Exploding_Frame0
+  dw 4,sDragonFireballOam_Exploding_Frame1
+  dw 4,sDragonFireballOam_Exploding_Frame2
+  dw $80ED,sDragonFireballOam_Exploding

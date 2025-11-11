@@ -1,0 +1,21 @@
+sPistonOam_Idle:
+  dw 16,sPistonOam_Idle_Frame0
+  dw 16,sPistonOam_Idle_Frame1
+  dw 16,sPistonOam_Idle_Frame0
+  dw 16,sPistonOam_Idle_Frame3
+  dw $80ED,sPistonOam_Idle
+
+sPistonOam_Opening:
+  dw 6,sPistonOam_Opening_Frame0
+  dw 6,sPistonOam_Opening_Frame1
+  dw 6,sPistonOam_Opening_Frame2
+  dw 6,sPistonOam_Opening_Frame3
+  dw 6,sPistonOam_Opening_Frame4
+  dw 6,sPistonOam_Opening_Frame5
+  dw 6,sPistonOam_Opening_Frame6
+  dw 6,sPistonOam_Opening_Frame7
+  dw $80ED,sPistonOam_Opening
+
+sPistonOam_Opened:
+  dw 255,sPistonOam_Opened_Frame0
+  dw $80ED,sPistonOam_Opened

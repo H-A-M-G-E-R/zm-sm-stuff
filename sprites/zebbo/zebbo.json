@@ -1,0 +1,119 @@
+{
+ "game": "sm",
+ "name": "zebbo",
+ "gfx": "AKAAGAA8AHYoekD2AfwC6gDAAIgAPAB6aXdB+wH3AnUUACwgfED4gPgA8ACAAAD8HBwcPDx8ePj4+PDwgICcYACgABgAPAB2KHpA9gD9AuoAwACIADwAemh2QPoA9gJ1AAAAAAAAAAAqCBgAwAAA/AAAAAAAAAAANj54eMDAnGAAoAAYADwAdih6QfYA/QLqAMAAiAA8AHpodkH7APYCdQAAAAAAAAAAAAAAAMBAbIgAAAAAAAAAAAAAAACg4HR8AAAAoAAYAD4Adgh6AfQC+gAAAMAAiAA+AXtpd0HbAvUUACwgfED4gPgA8AAA/nSLHBwcPDx8ePj4+PDwnmB/gAAAAKAAGAA8AHYIegD1AvoAAADAAIgAPAB6aHZA2gL1AAAAAAAAAAAqCBgAAP50iwAAAAAAAAAANj54eJ5gf4AAAACgABgAPgB2CXoA9QL6AAAAwACIAD4Aeml3QNoC9QAAAAAAAAAAAAAAAMBAbIoAAAAAAAAAAAAAAACg4HZ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBHAC/Akcy9yC5IL0A2QBoALoAPwI9Mo0gxyDNAOkAcHSKaPu7DCdCHmICXIGiQeB+gBeA9wB9gD3AD5CDYEGAQRwAvwJHMvcguSC9ANkAaAC6AD8CPTKNIMcgzQDpAHB0imj7uwwnQh5iAlyBokHgfoAXgPcAfYA9wA+Qg2BBgEEcAL8CRzL3ILkgvQDZAGgAugA/Aj0yjSDHIM0A6QBwfIJo+7sMJ0IeYgJcgaJB4H6cF4D3AH2APcAPkINgQYAB7gJHMHEgvSC4ENgA6AAAAFYCvTAPIMUgyBDoAPAAAGv4uw4mQh5gQV4hIAAgAAAXgPUAfYA/wE+QIUAAEAAAAe4CRzBxIL0guRDYAOgAAABWAr0wDyDFIMkQ6ADwAABr+LsOJkIeYEFeISAAIAAAF4D1AH2AP8BPkCFAABAAAAHuAkcwcSC9ILkQ2ADoAAAAVgK9MA8gxSDJEOgA8AAAf+C7DiZCHmBBXiEgACAAAB+c9QB9gD/AT5AhQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+ "palette": [
+  4290836728,
+  4282949640,
+  4280317952,
+  4294484216,
+  4290773216,
+  4286054536,
+  4282384456,
+  4287690872,
+  4287680560,
+  4280307712,
+  4278204416,
+  4289784056,
+  4285581560,
+  4282943680,
+  4294502400,
+  4294475776
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sZebboOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZebboOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZebboOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZebboOam_Moving_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZebboOam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZebboOam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

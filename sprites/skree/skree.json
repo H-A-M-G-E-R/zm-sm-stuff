@@ -1,0 +1,449 @@
+{
+ "game": "sm",
+ "name": "skree",
+ "gfx": "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",
+ "palette": [
+  4279277664,
+  4294506744,
+  4281341952,
+  4292405424,
+  4288729184,
+  4285042776,
+  4279255040,
+  4294498304,
+  4286099512,
+  4283463736,
+  4288690176,
+  4293429248,
+  4291317760,
+  4286058536,
+  4294494424,
+  4294453360
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sSkreeOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 16,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 16,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSkreeOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": 16,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSkreeOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 16,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": 24,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": 0,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkreeOam_Idle_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -8,
+     "y": 16,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSkreeOam_Spinning_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 8,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sSkreeOam_Spinning_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 16,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": 16,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkreeExplosionOAM_GoingUp_Frame0",
+   "spritemap": [
+    {
+     "x": -5,
+     "y": 6,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -5,
+     "y": -10,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -5,
+     "y": -2,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkreeExplosionOAM_GoingUp_Frame1",
+   "spritemap": [
+    {
+     "x": -5,
+     "y": -8,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -5,
+     "y": -3,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -5,
+     "y": 2,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkreeExplosionOAM_GoingUp_Frame2",
+   "spritemap": [
+    {
+     "x": -7,
+     "y": -1,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": -7,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkreeExplosionOAM_GoingDown_Frame0",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -10,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": 6,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -2,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkreeExplosionOAM_GoingDown_Frame1",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -6,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -2,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sSkreeExplosionOAM_GoingDown_Frame2",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -4,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

@@ -1,0 +1,224 @@
+{
+ "game": "sm",
+ "name": "viola",
+ "gfx": "AAcAHwM8E2wkWAjwcYFzgwcAGAAnAFgXcC+jHOdY51gHABgHIxxTLGQYiHDzA/MDBwAYACcAWBdwL6Mc51jmWAAHAR4FOhNsIFgL83eHc4MCBQkRJwQYV3MsJ5juUG7QAOCAeKBcyDYEGtDP7uHOwaBAiJDgJBrozDblGHYLdwoHABoFIR5TLGgQg3P3B7tDBQITCgcgWBczbKcYbtDkGOAAWKCEeMo0FgjBzu/g3cJAoNBI5AAY6s405Bl3CiYZAAIADwA/EywkWAtzN8c7QgAHAxgEIxhXM2wnmG6QZJgAoADoAPjINiQY0M/s4txDAODAGCDEGOrMNuQZdgkmGQUAEAcBHlMsJBiLczdHs0ICBQsQJQIYV3MsJ5juEGyQQAAQ4IR4yDQmGNDO7eLMQqBAyBCgRBrozDblGHYJNwgFBRAXCxRDfCgQk+NnB6/CBQIQCA8oUA8gf6cYbNDiHEBAEPDULMA8FgrIxufh9EJAoBAI9BAI8gb85Bk3CkY5BwcYHyc4THBQYLPDr8O9wAUAEwAMA1APJxivEEA83iDg4Bj45BwyDgoGzcP1w70DQADQADTACPDmGPQIAzx6BAcHGB8nOFhgU2Onx6/CscwCAA8AOAcwD2cYTDDAPF4g4OAY+OQcGgbKxuXj9UONM6AA6AAY4A7w5BgzDAI8ewQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPsD8wOIcGQYUywjHBgHBwDiXOdYoxxwL1gXJwAYAAcAf4N3hwvzIFgSbQU6AR4AB+BcbtCnGDNsWRYHJBEJBQL+we7h0M8EGki2oFyAeADgBjt3CuQZzjSYauQgkIhAoL9D9weDc2kQUC8jHBoFBwBqlO5QJ5hyLRlWJwMLEgIF/cLv4MHOlggK9MQ4WKDgAFcodgvlGEy2mmjgxMhQoEA1ySdfC/MlGBJtAB8AFwAFeoRmmCeYMm0ZVgYgABgAB6Sa5PvQzqQaSLQA/ADwAEBeIWYZ5BlMtphqYAQAGADgIV23SwtzZRgSLSAfCAcCAPoEcoynGDJtWBcFIhIIBQKFuuTa0c6kGEq0APgI4KAAXiFHOOQZTrQY6qRAUAhAoCNe/4cTY2lQAj0qNQgPAgJ6hPxAJ5hgPxFOLggKEAIFxXv+4MnHlAhCvlCoCOigoF8gPgPlGAT+inBwFEgQoECl2KvTs8JSYU5xJDsUGw8PZgD8AC4RZRoTDCoEDgAKAKUb1cvNQ0qGco4k3CjY8PBnAD4AdYikWMowUCB4AKAApdmu1qXEUmFUYyQzFBsPD+YAeQDNMiUacgwSDBgEBQClm3VrpSNKhirGJMwo2PDwZgCfALJMplhMMEwwECBQAA==",
+ "palette": [
+  4278235264,
+  4294506744,
+  4278190080,
+  4288739576,
+  4278241472,
+  4278214752,
+  4278206528,
+  4278251728,
+  4278235320,
+  4278225040,
+  4278216808,
+  4294443080,
+  4290248760,
+  4278200360,
+  4278253568,
+  4278233088
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sViolaOam_Moving_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 273,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame4",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame5",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame6",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame7",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sViolaOam_Moving_Frame8",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

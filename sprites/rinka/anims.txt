@@ -1,0 +1,24 @@
+sRinkaOrangeOam_Spawning:
+  dw 4,sRinkaOrangeOam_Spawning_Frame0
+  dw 4,sRinkaOrangeOam_Spawning_Frame1
+  dw 4,sRinkaOrangeOam_Spawning_Frame2
+  dw 4,sRinkaOrangeOam_Spawning_Frame3
+  dw 4,sRinkaOrangeOam_Spawning_Frame4
+  dw 4,sRinkaOrangeOam_Spawning_Frame5
+  dw 8,sRinkaOrangeOam_Spawning_Frame3
+  dw 6,sRinkaOrangeOam_Spawning_Frame7
+  dw 6,sRinkaOrangeOam_Spawning_Frame8
+  dw 6,sRinkaOrangeOam_Spawning_Frame9
+  dw 8,sRinkaOrangeOam_Spawning_Frame8
+  dw 7,sRinkaOrangeOam_Spawning_Frame7
+  dw 7,sRinkaOrangeOam_Spawning_Frame8
+  dw 7,sRinkaOrangeOam_Spawning_Frame9
+  dw 7,sRinkaOrangeOam_Spawning_Frame8
+  dw $80ED,sRinkaOrangeOam_Spawning
+
+sRinkaOrangeOam_Moving:
+  dw 12,sRinkaOrangeOam_Spawning_Frame7
+  dw 12,sRinkaOrangeOam_Spawning_Frame8
+  dw 12,sRinkaOrangeOam_Spawning_Frame9
+  dw 12,sRinkaOrangeOam_Spawning_Frame8
+  dw $80ED,sRinkaOrangeOam_Moving

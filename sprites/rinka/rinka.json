@@ -1,0 +1,244 @@
+{
+ "game": "sm",
+ "name": "rinka",
+ "gfx": "AAMBDgUZBDQIazBUAMhgqAADAwwOEBsgNkEoRHiAUIgAwIBwoJggLBDWDCoAEwYVAMDAMHAI2ARsghQiHgEKEQADAA8FGQQ0C2gwVAjAKOAAAAADAQ4EGws3ECgIeChYAMAA8KCYICzQFgwqEAMUBwAAAMCAcCDY0OwIFBAeFBoAAwYICREUJCpJUBRIgCCoAAAHBw4PGx82Pmh4eHhQcADAYBCQiCgkVJIKKBIBBBUAAODgcPDY+Gx8Fh4eHgoOAwAMARAHIA9BHEI4hDCIcAMADwEfBz8Pfxx+OPww+HDwAAzgAvgB/OAOEAcIAwQD8AD84P74//z/Dh8HDwMHAwADAwwPEB8gPkE8QniEcIgDAwwMEBAgIEFBQkKEhIiIAPDwDPwC/gEf4A8QBwgDBPDwDAwCAgEB4OAQEAgIBAQAAAADAgQAGAAQACAgQABAAAAAAAICAAAAAAAAICAAAAMDCwscHDMzZWUsLNDQ2NgAAwMMDBATICRDKERQiFCIwMDQ0Dg4zMympjQ0CwsbGwDAwDAwCMgEJMIUIgoRChEDAw0NFxcuLltbdHS4uOjoAwAOBBgAMQBnAkxAyAiYAMDAsLDo6HR02touLh0dFxfAAHAgGACMAOZAMgITEBkAAAAAQgAkABgAGAAkAEIAAAAAAAAAAAAAAAAAAAAAAABgqADIMFQIawQ0BRkBDgADUIh4gChENkEbIA4QAwwAAwYVABMMKhDWICygmIBwAMAKER4BFCJsgtgEcAjAMADAKOAIwDBUC2gENAUZAA8AAyhYCHgQKAs3BBsBDgADAAAUBxADDCrQFiAsoJgA8ADAFBoQHggU0Owg2IBwAMAAACCoSIBQFCpJFCQJEQYIAANQcHh4aHg2PhsfDg8HBwAABBUSAQooVJIoJJCIYBAAwAoOHh4WHmx82Phw8ODgAACIcIhwiHCEMEI4QRwgDxAH+HD4cPhw/DB+OH8cPw8fBwQDBAMEAwgDEAfgDgH8AvgHAwcDBwMPAx8H/w7//P74cIhwiHCIeIQ8Qj5BHyAPEIiIiIiIiISEQkJBQSAgEBADBAMEAwQHCA8QD/D+AfwCBAQEBAQECAgQEPDwAQECAgADBwsMHBAwI2NkJEjISMgAAAQHAAwAEAAjQGQASABI2NjQ0CwsZWUzMxwcCwsDA1CIUIgoRCRDEyAMEAMMAAMbGwsLNDSmpszMODjQ0MDAChEKERQiJMLIBDAIwDAAwOjouLh0dFtbLi4XFw0NAwOYAMgITEBnAjEAGAAOBAMAFxcdHS4u2tp0dOjosLDAwBkAExAyAuZAjAAYAHAgwAAAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAA==",
+ "palette": [
+  4278235264,
+  4294506744,
+  4288151552,
+  4294500352,
+  4294494208,
+  4294477824,
+  4294459392,
+  4294469632,
+  4294457344,
+  4294443008,
+  4291821568,
+  4294443008,
+  4292345856,
+  4290248712,
+  4294506496,
+  4294475776
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame7",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame8",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame9",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame4",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -9,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -7,
+     "y": -7,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRinkaOrangeOam_Spawning_Frame5",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -9,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -7,
+     "y": -7,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

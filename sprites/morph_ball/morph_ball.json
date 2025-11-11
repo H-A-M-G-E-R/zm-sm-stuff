@@ -1,0 +1,149 @@
+{
+ "game": "sm",
+ "name": "morph_ball",
+ "gfx": "AAAAAAMDBwgBEAwMDCwgAAAAAAAAAwAPAB8MEwwzAD8AAAAAwAAw4JhwyDDMOMw4AAAAAAAAAOAA8ADwAPgA+AAAAAADAwcIABAODg4uLg4AAAAAAAMADwAfDhEOMQ4xAAAAAMAAsGDYMOgQ7BjsGAAAAAAAAADgAPAA8AD4APgAAAAAAwMIAB4OEx8TPz8fAAAAAAADAA8OERMAEyAfIAAAAADAALBgWDBoEGwYbBgAAAAAAAAA4ADwAPAA+AD4BwcbGCggQEBgQICAwIDAgAAABwAYACAAIABAAEAAQADg4PgYDBQGAgIGAgAAAgACAADgABgABAAEAAMAAwADAAAHAB8AOABwAGAA4ADAAMAAAAAAAAAAAAAAAAAAAAAA4OD4GAwUBgICBgEDAQMAAgAA4AAYAAQABAACAAIAAwABBwoZAC8AX0B/AL9Av4D+AAAGABAAIAAAAEAAQAAAAODgGPgE/AbiAsYBgwEDAQMAAAAAAAAEAAQAAgACAAIABwcbGCggQEBgQICAwIDAgAAABwAYACAAIABAAEAAQADg4OgYBBwCHgIeAR8BPwE/AADgAAAAAAAAAAAAAAAAAAcHGxgoIEBAYECAgMCAwIAAAAcAGAAgACAAQABAAEAA4OD4GAwUBAIABgMBAQMAAgAA4AAYAAQABAACAAIAAwARID8gDxAQHwgPAwMAAAAAAD8APwAfAB8ADwADAAAAAMw4nHgY8Djw8ODAAAAAAAAA+AD4APAA8ADgAAAAAAAAACA/IA8QFhkIDwMDAAAAAAA/AD8AHwAfAA8AAwAAAADMONw4mHA48PDgwAAAAAAAAPgA+ADwAPAA4AAAAAAAAA4uMCAfAA8QBAsDAwAAAAAOMQA/AB8AHwAPAAMAAAAAbBj8GNgwuHDw4MAAAAAAAAD4APgA8ADwAOAAAAAAAADAgMCAwIBAYGBAMCgcGwAAQABAAEAAIAAgABgABwAHAAACAAIAAgAEAAQAGADgAAADAAMAAwAGAAYAHAD4AOAAwIDAgMCAQGBgQDAoHBsGBkAAQABAACAAIAAYAAcAAQAAAgACAAIABAAEABgA4AAAAwADAAMABgAGABwA+ADgAID8gPyA+EB4QHggOBQbBwcAAAAAAAAAAAAAAAAHAAAAAAIAAgACAAQABAAYAOAAAAMAAwADAAYABgAcAPgA4ADAgMCAwIFAY2BHID8YHwcHQABAAEAAIAAgAAAAAAAAAAF/AP8A/wL+AP4A/BD4gOAAAAIAAgAAAAQACABgAAAAwIDAgMCAQGBgQDAoBBsGBkAAQABAACAAIAAYAAcAAQAAAwADAAcABgAOABwA+ADgAAAAAAAAAAAAAAAAAAAAAA==",
+ "palette": [
+  4288694368,
+  4285538304,
+  4294506744,
+  4289788152,
+  4286097640,
+  4283977952,
+  4281860272,
+  4294500392,
+  4294486080,
+  4294465568,
+  4294443008,
+  4290252800,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sMorphBallOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMorphBallOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMorphBallOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMorphBallOutsideOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMorphBallOutsideOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMorphBallOutsideOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMorphBallOutsideOam_Idle_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMorphBallOutsideOam_Idle_Frame4",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

@@ -1,0 +1,17 @@
+sGeegaOam_Idle:
+  dw 4,sGeegaOam_Idle_Frame0
+  dw 3,sGeegaOam_Idle_Frame1
+  dw 4,sGeegaOam_Idle_Frame2
+  dw 2,sGeegaOam_Idle_Frame1
+  dw $80ED,sGeegaOam_Idle
+
+sGeegaOam_Moving:
+  dw 3,sGeegaOam_Idle_Frame0
+  dw 2,sGeegaOam_Idle_Frame1
+  dw 3,sGeegaOam_Idle_Frame2
+  dw 1,sGeegaOam_Idle_Frame1
+  dw 3,sGeegaOam_Moving_Frame4
+  dw 2,sGeegaOam_Moving_Frame5
+  dw 3,sGeegaOam_Moving_Frame6
+  dw 1,sGeegaOam_Moving_Frame5
+  dw $80ED,sGeegaOam_Moving

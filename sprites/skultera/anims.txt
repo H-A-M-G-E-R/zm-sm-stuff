@@ -1,0 +1,24 @@
+sSkulteraOam_Idle:
+  dw 8,sSkulteraOam_Idle_Frame0
+  dw 8,sSkulteraOam_Idle_Frame1
+  dw 8,sSkulteraOam_Idle_Frame2
+  dw 8,sSkulteraOam_Idle_Frame3
+  dw $80ED,sSkulteraOam_Idle
+
+sSkulteraOam_TurningAround:
+  dw 13,sSkulteraOam_TurningAround_Frame0
+  dw 10,sSkulteraOam_TurningAround_Frame1
+  dw 8,sSkulteraOam_TurningAround_Frame2
+  dw 6,sSkulteraOam_TurningAround_Frame3
+  dw 6,sSkulteraOam_TurningAround_Frame4
+  dw 8,sSkulteraOam_TurningAround_Frame5
+  dw 10,sSkulteraOam_TurningAround_Frame6
+  dw 13,sSkulteraOam_TurningAround_Frame7
+  dw $80ED,sSkulteraOam_TurningAround
+
+sSkulteraOam_ChasingSamus:
+  dw 3,sSkulteraOam_Idle_Frame0
+  dw 3,sSkulteraOam_Idle_Frame1
+  dw 3,sSkulteraOam_Idle_Frame2
+  dw 3,sSkulteraOam_Idle_Frame3
+  dw $80ED,sSkulteraOam_ChasingSamus

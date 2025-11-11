@@ -1,0 +1,304 @@
+{
+ "game": "sm",
+ "name": "elevator",
+ "gfx": "//8P/wD/D////wAAAAAAAAAAAAAAAAAAAAAAAAAAAADQyPTy/fz08tDIAAAAAAAAOAAOAAMADgA4AAAAAAAAAAAA+Pgf//j4AAAAAAAAAAD/AAcAAAAHAP8AAAAAAAAAKBAKBLKxCgQoEAAAAAAAAPAA/ABPAPwA8AAAAAAAAADwDw8AAAAPAPAPAAAAAAAA/wD/AP8A/wD/AAAAAAAAABjg9gidAvYIGOAAAAAAAADgAPgA/gD4AOAAAAAAAAAA/wDgH/0C4B//AAAAAAAAAAAA/wD/AP8AAAAAAAAAAAD4AA7wQ7wO8PgAAAAAAAAAAADwAPwA8AAAAAAAAAAAAAEA/gD/8P4AAQAAAAAAAAD/AP8ADwD/AP8AAAAAAAAAAIBAIKAQQCAAgAAAAAAAAIAA4ADwAOAAgAAAAAAAAADwAAzwxjgM8PAAAAAAAAAA8AD8AP4A/ADwAAAAAAAAAADgwDBgmMAwAOAAAAAAAADgADAAmAAwAOAAAAAAAAAAAAAAQgAkABgAGAAkAEIAAAAAAAAAAAAAAAAAAAAAAAAAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAJAAYABgAJABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAkABgAGAAkAEIAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "palette": [
+  4280817832,
+  4278206464,
+  4291360992,
+  4282448024,
+  4278249576,
+  4278235200,
+  4278216728,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sElevatorPadOam_Moving_Frame0",
+   "spritemap": [
+    {
+     "x": -15,
+     "y": 0,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": 0,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sElevatorPadOam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -15,
+     "y": 0,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": 0,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sElevatorPadOam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -7,
+     "y": 0,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sElevatorPadOam_Moving_Frame3",
+   "spritemap": [
+    {
+     "x": -7,
+     "y": 0,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sElevatorPadOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -15,
+     "y": 0,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": 0,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sElevatorPadOam_Idle_Frame2",
+   "spritemap": [
+    {
+     "x": -15,
+     "y": 0,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": 0,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sElevatorPadOam_Idle_Frame3",
+   "spritemap": [
+    {
+     "x": -15,
+     "y": 0,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

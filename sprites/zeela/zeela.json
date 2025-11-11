@@ -1,0 +1,1700 @@
+{
+ "game": "sm",
+ "name": "zeela",
+ "gfx": "AQADAQYDBwIBBQACAAEAAAEBAgIFBQUFBgADAAEAAADgAPHg+xF7keDqIBHAIADw4CAREYqKCgobAPEA4AAgAPAA+PB8iLxI8PQQCGCQAHDwkAgIxMSEhAwA+ADwACAAAAABAAMBBwIHAgEFAAIAAQAAAQECAgQEBAQGAAMAAQABAOMB8+F4krhR4OggEMA5AQHiIhISy8iJiBgA8ADgAPjwvEjcKPD0EAhgkABwgGAICGRkREQMAPgA8AAgAMAAAIAAgIDAQOAgMACgAEDA4IAAgABAAKAAUADwAMgALAAAAAAAAAAAAAAADBAOLBtWAAAAAAAAAAAAABwMMgJtDQAAAAAAAAAeHn9k/gjcGBgAAAAAAAAeAGEAmgDUAAAAAAAAAAAAAAAAABggHFg+pAAAAAAAAAAAAAA4GGQEwgIAAAAYHD8HHxg/ME8Afwn2AAAYACMA2ABmAHQAyQCrAAAAAAAYIBxYPqS+JLYsbrQAAAAAOBhkBMICwgDaGMoKAODg8AD4OHwIPCBfAH8S7eAAEAD4AEQA9ABoAJMAVgAAAAAADBAOLB9SW5ZXmj/SAAAAABwMMgJhAW0MZQRhAQAAAEIAJAAYABgAJABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAfiTfYgAAAAAAAAAAAAA8JEJCsbEAAAAAAAAAAAAICB0RMyH1AAAAAAEAAwAMABUALgDWABBpCXYAfxBgQL+GuYD/CZYwABkATwC/AMYAXwBmAP8AiGwI/Az8lH403iDUAOAAgMQAlAAwAMoAKgC0AHgAyAAACAgcDB4LHwkfBAwEDgAGCAAUABIAFAAWAAgACgAGAAl2AH8QYAC/xrkAnwB/ARYZAE8AvwCGAF8AxgDgALcAAOAA4IB4GPwo3iqfAu8Ch4AAIADYACQAtgA1AG0AxQBg8BBPAH8J9oJ1INYg1oJ1mAD0AMkAqwCuAPwA/ACuAFeaX5I/0g6sDBAAAAwQDixlBGEA4QEyAhwMAAAcDDICEDgQRwBfBPsBehDrEOuBeuwAcgDEAJUAFwC+AL4AlwC2LK40fqQc2BigAAAGCAeW2hjKCMICZAQ4GAAADgYZAQJ1INYg1gJ1CfYAfxBPYPAuAPwA/AAuAKsAyQD0AJgAHFgYIAAADBAOLB/SX5JblmQEOBgAABwMMgJhAWEAbQwE6kCsQKwE6hLsAH8AXxA5XAD4APgAXABWAJIAaQAsAA4sDBAAABggHFg+pLYsrjQyAhwMAAA4GGQEwgLaGMoIAAAAAAAAAAAAAAAAAAAQcAAAAAAAAAAAAAAAAAMAaQDvUj28BEIgXAA4ADgAeAh1oaHDAX4APAAAABAAEADIAAAADwAfDz0SPhEPLwEQBgkAAA8JEBAjIyIiMAAfAA8ABwAPB54J34jHlwBIA4QABwcECAiRkVFRWEDPAIcAAACAAMCA4EBgwICggEAAgAAAgIBAQKCgICBgAMAAgAAAAA8AHw87FD0SDy8BEAYJAAcPCRAQJiYkJDAAHwAPAAAAAACHAM+H3YoeSQeXAAgDBAAAh4RISFNT0hKYAA8ABwAAAIAAwIDgQOBAgKCAQACAAACAgEBAICAgIGAAwACAAAn2AH8wTxg+Bx8cPwAYAACrAMkAdABmANgAIwAYAAAAG1ZXml+SP9IOLAwQAAAAAG0NZQThAGEBMgIcDAAAAAAE+wBfME8IPDh8APjg8ADglQDEAHoANABEAPgAEADgAI8pLcsrzR9pBxYGCAAAAACwALYGcgIwABkBDgYAAAAAwOAAQACgIDBA4IDAAIAAgCwAyADwAFAAoABAAIAAgAA3Wg4sDBAAAAAAAAAAAAAAZQUyAhwMAAAAAAAAAAAAABgYCNxk/h5/AB4AAAAAAAAAANQAmgBhAB4AAAAAAAAAfqQcWBggAAAAAAAAAAAAAMICZAQ4GAAAAAAAAAAAAAAg6QE3BgcAAgAAAAAAAAAA2QA+AAkAAwAAAAAAAAAAAKFOAGMB/BjnIF8AHwAFAAD9AJ4ArwCYAP4AGQAHAAAAET4QPzA/KX4sewQrAAcAASMAKQAMAFMAVAAtAB4AEwAIlpBuAP4IBgL9YZ0B/wBpDACYAPIA/QBjAPoAZgBvAAAAAAAAAAAAABAQuIjMhK8AAAAAgADAADAAqAB0AGsAAAcBBgAfGD8RflT7QPdA4QIAAwAZACQAawCsAL0AqgAABwiWkG4A/wkHAP1gngD4AgAMAJkA8wD8AGMA+gBkAAAQEDgweND4kPggMCBwAGAQACgASAAoAGgAEABQAGAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAA8JCAAIAAgACAAAAAAAAAAAAAgICAAIAAgIAAAAAAAAAAAAAAPAB+PM96z3o8vQRCGCQAADwkckLpocmB8wB+ADwAAAAeAD8eZz1nPR5eAiEMEgAAHhI5IXRQZEB5AD8AHgAAADwAfjznfud+PL0EQhgkAAA8JFpCtZGlgdsAfgA8AD8ecz9zPx5eAiEMEgAAAAAtIVpIUkBtAD8AHgAAAAAAAAA8AH48817zXjy9BEIYJAAAPCROQpuJk4HPAH4APAAeAD8eeS95Lx5eAiEMEgAAHhInIU1ESUBnAD8AHgAAADwAfjznfud+PL0EQhgkAAA8JFpCtZGlgdsAfgA8AAAAAAAeAD8ecz9zPx5eAiEMEgAAHhItIVpIUkBtAD8AHgAAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAQADAQMBAAIAGRg8EDwAAAEBAgICAgMAGQAkACwA8AD4kLxI3aj18JAJQLAA+PCQCAhkZEVFDQX5AHAAgAAAAHgA/EjepO6UengAhDDIAAB4SISEMjIiIoYC/AB4AAAAAQADAQMBAAIAAQIHBA8AAAEBAgICAgMAAQAEAAoA8AD4kNwo7Bj18JEIQLEAwfCQCAg0NCQkDQX5AfEAQQAAAAAAeAD8SO6U9ox6eIAEAAAAAHhIhIQaGhIShgL8AAAAAEIAJAAYABgAJABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAB+JO9S90o9vAAAAAAAADwkQkKZmZGRwwEAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgcGDw4fCh8JH0AAAAABAAUACQARABUAFoAOAB8CO5UNqgelGgIJNgA8DgwRECamNIS4gJ0ADwEoAAAAAAAAAAAAAAAOAB8CG7UAAAAAAAAAAAAADgwRECaGAAAAAAAAwEDAAEBAwECAAMAAAAAAwACAAEADgADAAIAAAMBJfP2Y/qN8Yd5iHdItAMAJgAEAIwAbgCuAN8AWADAAOAA8GCwYHCg4MBAgAAAwMAgIBAQ0MBQQCAgwEAAADwAfiTfYu1QObhEAiBcgHg8JEJCsbGjoccBfgB8AKAAFD4GPxM+ED4AMwABAAAAACsAOQAtAC8ANwAFAAEAAAAQ7CLdAOcC+RhnAP8BvAE+kAB7AB4AXgA5AD4AgQAzAABwAPAAwADAAMBA4GDwQPAwAKAAAABAAEAAoACQALAADB8SPwYdAgUABwADAAEAABIALQAbAAYAHgACAAMAAAAA4CLVhDsAjwTzYJ8CfQF9QAAiAPcAeAC9AGIAewBmAGCYAOAAwACAAAAAAAAAAAD4AGAAAAAAAAAAwADgACAAAAAAAAAAAAAABwc/FD81fgAAAAAAAAAABwA4ACoASwAkQhBsAHAA8CDAAPAR6kS7fgA8ABAAIABgACAAMQD/ADwAfiTvUvdKPbxEgiDcAPA8JEJCmZmRkcMB/gB8AIAADG0GaQALAAcABwAFAAMAAWAAbgAdAAUADAAEAAMAAQAQ4MA4Ap0CzcgnSLcA/oh3sADgAHMA/wD4AO4AMACPADaoHpRIiMQ4AOAAAAAAAADSEuIC9AD8BAAAAAAAAAAAAAMAAQABAAEAAAABAAAAAAYAAAABAAEAAAABAAAAAAAA2ADaxCpCrRDvAP4QSDB4sADwAPwA1gBQAIwA8ADOAAwwHlQ/ZhuWV5p+nAQYAAA8DGICQQHtDGUEYgIcBAAAAPAI/BD8OPzIfJB4AJAAAMAAFABsAIQAtADoANAAQAAAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAUHggeCBwADAAAAAAAAAAACgAWABQADAAAAAAAAAAAAAAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAAEXAQMAAAAAAAAAAAAAAAAeAAYAAAAAAAAAAAAAAAAAALAwuBBYABgADAAAAAAAALAAyADoABgADAAAAAAAAAAgcwABAAAAAAAAAAAAAAAAVgAEAAEAAAAAAAAAAAAAAADHAvEwzwA+AAsAAAAAAAA8AP4AMAA9AAcAAAAAAAAAAIYE3vz+SPwYHCB4AHAAAEYA2gACALQABABYAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABrmBB8ADwIOBA8ABgAAAAD8AFsADwAMAAsABgAAAAAAAAAAAEAAAAAIAAgAAAAAAAAAAABgAAIAAAAIAEAAAAAAAAIAIAAAAAAABAAgAAAAAAACACAAAAAAAAQAIAAAACBwYGAACAgsEBwQGBAQAAhUAAAAPAA0AAwACAAAAAgAAAAAAAAIAAAAAAAgAAQAAAAAAAAIAAAAAAAgAAQAAAAAADwATjyPco9yPI0EQhgkAAA8JEJCqamJifMwfgA8AAAAHgAnHkc5RzkeRgIhDBIAAB4SISFUVEREeRg/AB4AAAA8AH4k51rnWjylBEIYJAAAPCRaWrW1paXbGH4APAA/EnMtcy0eUgIhDBIAAAAALS1aWlJSbQw/AB4AAAAAAAAAPAB6NPFO8U48sQRCGCQAADwkSkqZmZGRzwx+ADwAHgA9GngneCceWAIhDBIAAB4SJSVMTEhIZwY/AB4AAAA8AH4k51rnWjylBEIYJAAAPCRaWrW1paXbGH4APAAAAAAAHgA/EnMtcy0eUgIhDBIAAB4SLS1aWlJSbQw/AB4AAAAAQgAkABgAGAAkAEIAAAAAAAAAAAAAAAAAAAAAAAAYIBxYJrymPL48fqQcWBggOBh8BO4K5gDaAMICZAQ4GBggHFg+vKY8pjx+vBxYGCA4GGQE2gLuCOYA2gJkBDgYGCAcWD6kvjymPGa8HFgYIDgYZATCAtoA7gjmAnwEOBgYIARYIpyiHL4kfqQcWBggOBhkBOoq4iDaGMICZAQ4GBggHFg+pKYYphh+pBxYGCA4GGQE2hruLOYk2hpkBDgYGCAcWD6kviSmGGKcBFgYIDgYZATCAtoY7iziImQEOBgAADwAfjzfYu9SPL0EQhgkAAA8JEJCsbGhocMAfgA8AA==",
+ "palette": [
+  4280850456,
+  4294506744,
+  4279253008,
+  4294504560,
+  4294492160,
+  4289232896,
+  4284499968,
+  4289773816,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4280834200,
+  4280869008,
+  4278190080,
+  4288176248,
+  4294506744,
+  4283432960,
+  4294488232,
+  4294469720,
+  4291297352,
+  4287102976,
+  4289751128,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278190080,
+  4288675840,
+  4294457464,
+  4278190080
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sZeelaOam_OnGround_Frame0",
+   "spritemap": [
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -16,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_OnGround_Frame1",
+   "spritemap": [
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -16,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -24,
+     "tile": 310,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_OnGround_Frame2",
+   "spritemap": [
+    {
+     "x": -10,
+     "y": -16,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -16,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_OnGround_Frame3",
+   "spritemap": [
+    {
+     "x": -10,
+     "y": -16,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -16,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningEdgeLeft_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -13,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 4,
+     "y": -13,
+     "tile": 336,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -5,
+     "tile": 352,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -21,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningEdgeLeft_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -15,
+     "tile": 330,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -15,
+     "tile": 331,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "tile": 363,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningEdgeLeft_Frame2",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -13,
+     "tile": 333,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -13,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": 3,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_OnWall_Frame0",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -14,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -6,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_OnWall_Frame1",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -14,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -6,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": 2,
+     "tile": 311,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_OnWall_Frame2",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_OnWall_Frame3",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningCornerRight_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -12,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 4,
+     "y": -12,
+     "tile": 336,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 4,
+     "y": -4,
+     "tile": 352,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -20,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningCornerRight_Frame1",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -16,
+     "tile": 330,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -16,
+     "tile": 331,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": 0,
+     "tile": 363,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningCornerRight_Frame2",
+   "spritemap": [
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 333,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -16,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": 0,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningCornerLeft_Frame0",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -14,
+     "tile": 333,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -14,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": 2,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningCornerLeft_Frame1",
+   "spritemap": [
+    {
+     "x": -5,
+     "y": -15,
+     "tile": 330,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -15,
+     "tile": 331,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "tile": 363,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_TurningCornerLeft_Frame2",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -11,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 10,
+     "y": -11,
+     "tile": 336,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": -3,
+     "tile": 352,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -19,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_WalkingOnSlope_Frame0",
+   "spritemap": [
+    {
+     "x": -14,
+     "y": -14,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -14,
+     "tile": 336,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -6,
+     "tile": 352,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -6,
+     "y": -22,
+     "tile": 271,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_WalkingOnSlope_Frame1",
+   "spritemap": [
+    {
+     "x": -13,
+     "y": -16,
+     "tile": 321,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -16,
+     "tile": 323,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -5,
+     "y": -8,
+     "tile": 338,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_WalkingOnSlope_Frame2",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -16,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 4,
+     "y": -16,
+     "tile": 326,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 341,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_WalkingOnSlope_Frame3",
+   "spritemap": [
+    {
+     "x": -13,
+     "y": -12,
+     "tile": 343,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -5,
+     "y": -12,
+     "tile": 344,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -5,
+     "y": -20,
+     "tile": 328,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame0",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -17,
+     "tile": 312,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -17,
+     "tile": 313,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -16,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame1",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -16,
+     "tile": 314,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -16,
+     "tile": 315,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -16,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -24,
+     "tile": 310,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame2",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -16,
+     "tile": 372,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 373,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -16,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -16,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame3",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -16,
+     "tile": 374,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 375,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -16,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -16,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame4",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -17,
+     "tile": 368,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -17,
+     "tile": 369,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -16,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame5",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -16,
+     "tile": 370,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -16,
+     "tile": 371,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -14,
+     "y": -16,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": -16,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -24,
+     "tile": 310,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame6",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -16,
+     "tile": 316,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 317,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -16,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -16,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnGround_Frame7",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -16,
+     "tile": 318,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 319,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -16,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -16,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame0",
+   "spritemap": [
+    {
+     "x": 9,
+     "y": -9,
+     "tile": 377,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": 0,
+     "tile": 377,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -14,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -6,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame1",
+   "spritemap": [
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 378,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": 0,
+     "tile": 378,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -14,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -6,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": 2,
+     "tile": 311,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame2",
+   "spritemap": [
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 382,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": 1,
+     "tile": 382,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame3",
+   "spritemap": [
+    {
+     "x": 9,
+     "y": -8,
+     "tile": 381,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 1,
+     "tile": 381,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame4",
+   "spritemap": [
+    {
+     "x": 9,
+     "y": -9,
+     "tile": 380,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": 0,
+     "tile": 380,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -14,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -6,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame5",
+   "spritemap": [
+    {
+     "x": 8,
+     "y": -9,
+     "tile": 381,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": 0,
+     "tile": 381,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -14,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -6,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 16,
+     "y": 2,
+     "tile": 311,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame6",
+   "spritemap": [
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 379,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": 1,
+     "tile": 379,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 282,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaOam_FallingOnWall_Frame7",
+   "spritemap": [
+    {
+     "x": 9,
+     "y": -8,
+     "tile": 378,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 1,
+     "tile": 378,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 284,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sZeelaEyesOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -5,
+     "tile": 383,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaEyesOam_Spinning_Unused_Frame0",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -5,
+     "tile": 312,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaEyesOam_Spinning_Unused_Frame1",
+   "spritemap": [
+    {
+     "x": -4,
+     "y": -5,
+     "tile": 368,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaEyesOam_Exploding_Frame0",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -8,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaEyesOam_Exploding_Frame1",
+   "spritemap": [
+    {
+     "x": -11,
+     "y": -11,
+     "tile": 365,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": -11,
+     "tile": 365,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "tile": 365,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -11,
+     "y": 3,
+     "tile": 365,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZeelaEyesOam_Exploding_Frame2",
+   "spritemap": [
+    {
+     "x": -13,
+     "y": -13,
+     "tile": 367,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 5,
+     "y": -13,
+     "tile": 367,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": 5,
+     "y": 5,
+     "tile": 367,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": true,
+     "big": false
+    },
+    {
+     "x": -13,
+     "y": 5,
+     "tile": 367,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

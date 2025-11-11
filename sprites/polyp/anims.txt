@@ -1,0 +1,49 @@
+sPolypOam_Idle:
+  dw 16,sPolypOam_Idle_Frame0
+  dw 16,sPolypOam_Idle_Frame1
+  dw 16,sPolypOam_Idle_Frame2
+  dw 16,sPolypOam_Idle_Frame1
+  dw $80ED,sPolypOam_Idle
+
+sPolypOam_Warning:
+  dw 2,sPolypOam_Warning_Frame0
+  dw 2,sPolypOam_Warning_Frame1
+  dw 2,sPolypOam_Warning_Frame2
+  dw 2,sPolypOam_Warning_Frame3
+  dw $80ED,sPolypOam_Warning
+
+sPolypOam_Spitting:
+  dw 255,sPolypOam_Warning_Frame2
+  dw $80ED,sPolypOam_Spitting
+
+sPolypOam_AfterSpitting:
+  dw 2,sPolypOam_Warning_Frame1
+  dw 2,sPolypOam_Warning_Frame0
+  dw 2,sPolypOam_AfterSpitting_Frame2
+  dw $80ED,sPolypOam_AfterSpitting
+
+sPolypOam_Retracting:
+  dw 2,sPolypOam_Warning_Frame0
+  dw 2,sPolypOam_Warning_Frame1
+  dw $80ED,sPolypOam_Retracting
+
+sPolypProjectileOam_Right:
+  dw 6,sPolypProjectileOam_Right_Frame0
+  dw 6,sPolypProjectileOam_Right_Frame1
+  dw 6,sPolypProjectileOam_Right_Frame2
+  dw 6,sPolypProjectileOam_Right_Frame3
+  dw $80ED,sPolypProjectileOam_Right
+
+sPolypProjectileOam_Left:
+  dw 6,sPolypProjectileOam_Left_Frame0
+  dw 6,sPolypProjectileOam_Left_Frame1
+  dw 6,sPolypProjectileOam_Left_Frame2
+  dw 6,sPolypProjectileOam_Left_Frame3
+  dw $80ED,sPolypProjectileOam_Left
+
+sPolypProjectileOam_Exploding:
+  dw 4,sPolypProjectileOam_Exploding_Frame0
+  dw 4,sPolypProjectileOam_Exploding_Frame1
+  dw 4,sPolypProjectileOam_Exploding_Frame2
+  dw 4,sPolypProjectileOam_Exploding_Frame3
+  dw $80ED,sPolypProjectileOam_Exploding
