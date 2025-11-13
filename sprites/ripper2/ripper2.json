@@ -1,0 +1,214 @@
+{
+ "game": "sm",
+ "name": "ripper2",
+ "gfx": "AAAAAAAAAAABAAAFAA8IMwAAAAAAAAAAAQAHBAEBHhAAAAAAHxdpcI/rLc0WaSC/AAAAAB8Xf1DQgPtA9iD/rgAAAADHR3jvDHqQdiDsYN4AAAAAx0f+rLwo/FD4oPBAAAAAAAAAAAACAwAGCA8AGwAAAAAAAAAAAwIHBggIDwoAAAAAPy68+AfsE+MNshDfAAAAAD8u/zBwAP4g/ZB/VwAAAACYvvA2iL5QdJB2MO4AAAAAmJj8FFwc+DC4EPggAAAAAAEDEhwIHxEgIH8SbQAAAAADAB8EDwg/IGBgPygAAAAAL/vLvRSPEJ8EXwS7AAAAAP8z/y1+AvqK7Ex8EAAAAAAEAAgIUVDjwMgAnw8AAAAAAAwIAFABwAcAFw9gAAAAAAAAAAAAAP4AAADw8AAAAAAAAAAAAAAA/gDw8A4AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAIAAABIQKCg4mD/IPAQ+ykAAgBAQAigEGACIB8QDykGAAAAAAAAAAAAAPAAHgCwsAAAAAAAAAAAAAAA8AD+sE8AAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAwAAAAABAQAQAODjiwP889nYAAAAAQAAADDgAwCY8A3YJAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAgTwRzGnkQbwBxAEAAAAAAOAZsX0Y/ETgAYABAAAAAAAHfEe4F8zT/Af8Af21bkttvQXEgPzO0NEUFJCRtSdvbwL8A9SDfUP8A+oBgAMAAAOqKz4A6GlpQAACAAICAAAAABwkUAhoEGwAJAAEAAQAAHgUbBw0HBB4ACAAAAAAAAADvCPcC+Rr/wP+Qv527Uts3IFiQT4maGsjAlJSdmVtb4N6AepDuIPwg/BDooHhAYPbE5ECciCggoKCQgLAwYGAM42mkAr4CfSh/Kn8AfwAqPEN751H/An8oOCoqKgAAAARbCtcRzxb/AP8qVQB/ACq0AC6GOYkXlxQUKgAqKgAA/2D/H/AQ+4hkZAEAEAAAAGAAHwAQD4gDZAAAIwAQAAD///DwAACAAAAAAAAAAAAA/wDwDwDwAIAAAAAAAAAAAMPAOAAAAAAAAAAAAAAAAADAPwD4AAAAAAAAAAAAAAAA4CD/EMhAwECIgEAAAAAAACAfEA9AGEAAgEgAQAAAAAB+AIAAAAAAAAAAAAAAAAAAAP4AgAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAA/zD9XOOjYEAAAAIAAAAAADAPXCOjAEAAABAAAgAAAAAwAPAAAAAAAAAAAAAAAAAAAPAA/QAAAAAAAAAAAAAAAA==",
+ "palette": [
+  4278226944,
+  4294506744,
+  4281864240,
+  4294484216,
+  4291317952,
+  4288166032,
+  4283441224,
+  4294490168,
+  4294451248,
+  4288155672,
+  4279244936,
+  4278253680,
+  4278237264,
+  4278220848,
+  4294467832,
+  4285016160
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sRipper2Oam_Moving_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -13,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -11,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRipper2Oam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -13,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -11,
+     "tile": 267,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 20,
+     "y": -11,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRipper2Oam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -13,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -13,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -12,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 20,
+     "y": -12,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRipper2Oam_TurningAround_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -13,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -13,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -12,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sRipper2Oam_TurningAround_Frame1",
+   "spritemap": [
+    {
+     "x": -8,
+     "y": -13,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -11,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

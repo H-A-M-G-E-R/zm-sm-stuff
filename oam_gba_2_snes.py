@@ -310,6 +310,7 @@ if __name__ == "__main__":
     #export_sprite_oam(0x67, 'polyp') done
     #export_sprite_oam(0x68, 'viola', 0x82EF758) done
     #export_sprite_oam(0x6b, 'holtz') done
+    #export_sprite_oam(0x71, 'ripper2') done
     #export_sprite_oam(0x72, 'mella') done
     #export_sprite_oam(0x77, 'acid_worm')
     #export_sprite_oam(0x79, 'sidehopper') done
