@@ -1,0 +1,1585 @@
+{
+ "game": "sm",
+ "name": "zoomer",
+ "gfx": "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",
+ "palette": [
+  4289220640,
+  4294506744,
+  4282392664,
+  4294504608,
+  4294498328,
+  4289226752,
+  4278190080,
+  4278769872,
+  4278190080,
+  4278222968,
+  4278206520,
+  4278190080,
+  4278190080,
+  4278190080,
+  4282972168,
+  4279269376,
+  4294473784,
+  4294506744,
+  4282392664,
+  4294484168,
+  4294451312,
+  4288155712,
+  4278190080,
+  4287688704,
+  4278190080,
+  4283994112,
+  4280829952,
+  4278190080,
+  4278190080,
+  4278190080,
+  4278253816,
+  4278216952
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sZoomerOam_Falling_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -18,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -18,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -10,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -8,
+     "tile": 306,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -8,
+     "tile": 306,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_Falling_Frame1",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -17,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -9,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -8,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -8,
+     "tile": 265,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_Falling_Frame2",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -16,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -16,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -8,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -8,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnGround_Frame0",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -17,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -9,
+     "tile": 259,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -12,
+     "y": -8,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnGround_Frame1",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -18,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -18,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -10,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -8,
+     "tile": 306,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnGround_Frame2",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -17,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -17,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -9,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -8,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 3,
+     "y": -8,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnGround_Frame3",
+   "spritemap": [
+    {
+     "x": -12,
+     "y": -16,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -16,
+     "tile": 257,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -8,
+     "tile": 275,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -8,
+     "tile": 306,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -8,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningEdgeLeft_Frame0",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -19,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -11,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -9,
+     "y": -3,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -9,
+     "big": false,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false
+    },
+    {
+     "x": 0,
+     "y": -3,
+     "big": false,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningEdgeLeft_Frame1",
+   "spritemap": [
+    {
+     "x": -5,
+     "y": -16,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 3,
+     "y": -8,
+     "tile": 283,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -5,
+     "y": 0,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningEdgeLeft_Frame2",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -15,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -7,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -6,
+     "y": 1,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnWall_Frame0",
+   "spritemap": [
+    {
+     "x": 1,
+     "y": -12,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": -12,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -4,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": -4,
+     "tile": 277,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": 4,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -12,
+     "tile": 316,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "tile": 317,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnWall_Frame1",
+   "spritemap": [
+    {
+     "x": 2,
+     "y": -12,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": -12,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -4,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": -4,
+     "tile": 277,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": 4,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 10,
+     "y": 4,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 318,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "tile": 319,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnWall_Frame2",
+   "spritemap": [
+    {
+     "x": 1,
+     "y": -12,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": -12,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -4,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": -4,
+     "tile": 277,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 9,
+     "y": 4,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 317,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 316,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_OnWall_Frame3",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -12,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -12,
+     "tile": 261,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -4,
+     "tile": 278,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": -4,
+     "tile": 277,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 4,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -10,
+     "tile": 319,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "tile": 318,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": true,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningCornerRight_Frame0",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -19,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -11,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -9,
+     "y": -3,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -9,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -3,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningCornerRight_Frame1",
+   "spritemap": [
+    {
+     "x": -10,
+     "y": -21,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -13,
+     "tile": 283,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -10,
+     "y": -5,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningCornerRight_Frame2",
+   "spritemap": [
+    {
+     "x": -11,
+     "y": -23,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -3,
+     "y": -15,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -11,
+     "y": -7,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningCornerLeft_Frame0",
+   "spritemap": [
+    {
+     "x": -2,
+     "y": -16,
+     "tile": 269,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 6,
+     "y": -8,
+     "tile": 286,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": 0,
+     "tile": 301,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningCornerLeft_Frame1",
+   "spritemap": [
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 8,
+     "y": -8,
+     "tile": 283,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_TurningCornerLeft_Frame2",
+   "spritemap": [
+    {
+     "x": -1,
+     "y": -16,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 7,
+     "y": -8,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": 0,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -6,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 305,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnLeftSlope_Frame0",
+   "spritemap": [
+    {
+     "x": -10,
+     "y": -19,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -11,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -10,
+     "y": -3,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -10,
+     "y": -9,
+     "tile": 308,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 309,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnLeftSlope_Frame1",
+   "spritemap": [
+    {
+     "x": -10,
+     "y": -18,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -2,
+     "y": -10,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -10,
+     "y": -2,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -9,
+     "tile": 310,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -2,
+     "tile": 311,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnLeftSlope_Frame2",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -18,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -10,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -9,
+     "y": -2,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": -8,
+     "tile": 312,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -2,
+     "tile": 313,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnLeftSlope_Frame3",
+   "spritemap": [
+    {
+     "x": -9,
+     "y": -19,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -1,
+     "y": -11,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -9,
+     "y": -3,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -9,
+     "tile": 314,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -2,
+     "tile": 315,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnRightSlope_Frame0",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -19,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -14,
+     "y": -11,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -3,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 2,
+     "y": -9,
+     "tile": 308,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 309,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnRightSlope_Frame1",
+   "spritemap": [
+    {
+     "x": -6,
+     "y": -18,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -14,
+     "y": -10,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 2,
+     "y": -2,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": -9,
+     "tile": 310,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": -2,
+     "tile": 311,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnRightSlope_Frame2",
+   "spritemap": [
+    {
+     "x": -7,
+     "y": -18,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -10,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 1,
+     "y": -2,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -1,
+     "y": -8,
+     "tile": 312,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -9,
+     "y": -2,
+     "tile": 313,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sZoomerOam_WalkingOnRightSlope_Frame3",
+   "spritemap": [
+    {
+     "x": -7,
+     "y": -19,
+     "tile": 263,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -15,
+     "y": -11,
+     "tile": 280,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 1,
+     "y": -3,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 1,
+     "y": -9,
+     "tile": 314,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -7,
+     "y": -2,
+     "tile": 315,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

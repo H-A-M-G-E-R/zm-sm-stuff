@@ -1,0 +1,58 @@
+sZoomerOam_Falling:
+  dw 3,sZoomerOam_Falling_Frame0
+  dw 3,sZoomerOam_Falling_Frame1
+  dw 3,sZoomerOam_Falling_Frame2
+  dw 3,sZoomerOam_Falling_Frame1
+  dw $80ED,sZoomerOam_Falling
+
+sZoomerOam_OnGround:
+  dw 3,sZoomerOam_OnGround_Frame0
+  dw 3,sZoomerOam_OnGround_Frame1
+  dw 3,sZoomerOam_OnGround_Frame2
+  dw 3,sZoomerOam_OnGround_Frame3
+  dw $80ED,sZoomerOam_OnGround
+
+sZoomerOam_TurningEdgeLeft:
+  dw 2,sZoomerOam_TurningEdgeLeft_Frame0
+  dw 2,sZoomerOam_TurningEdgeLeft_Frame1
+  dw 2,sZoomerOam_TurningEdgeLeft_Frame2
+  dw $80ED,sZoomerOam_TurningEdgeLeft
+
+sZoomerOam_TurningEdgeRight:
+  dw 2,sZoomerOam_TurningEdgeLeft_Frame2
+  dw 2,sZoomerOam_TurningEdgeLeft_Frame1
+  dw 2,sZoomerOam_TurningEdgeLeft_Frame0
+  dw $80ED,sZoomerOam_TurningEdgeRight
+
+sZoomerOam_OnWall:
+  dw 3,sZoomerOam_OnWall_Frame0
+  dw 3,sZoomerOam_OnWall_Frame1
+  dw 3,sZoomerOam_OnWall_Frame2
+  dw 3,sZoomerOam_OnWall_Frame3
+  dw $80ED,sZoomerOam_OnWall
+
+sZoomerOam_TurningCornerRight:
+  dw 2,sZoomerOam_TurningCornerRight_Frame0
+  dw 2,sZoomerOam_TurningCornerRight_Frame1
+  dw 2,sZoomerOam_TurningCornerRight_Frame2
+  dw $80ED,sZoomerOam_TurningCornerRight
+
+sZoomerOam_TurningCornerLeft:
+  dw 2,sZoomerOam_TurningCornerLeft_Frame0
+  dw 2,sZoomerOam_TurningCornerLeft_Frame1
+  dw 2,sZoomerOam_TurningCornerLeft_Frame2
+  dw $80ED,sZoomerOam_TurningCornerLeft
+
+sZoomerOam_WalkingOnLeftSlope:
+  dw 3,sZoomerOam_WalkingOnLeftSlope_Frame0
+  dw 3,sZoomerOam_WalkingOnLeftSlope_Frame1
+  dw 3,sZoomerOam_WalkingOnLeftSlope_Frame2
+  dw 3,sZoomerOam_WalkingOnLeftSlope_Frame3
+  dw $80ED,sZoomerOam_WalkingOnLeftSlope
+
+sZoomerOam_WalkingOnRightSlope:
+  dw 3,sZoomerOam_WalkingOnRightSlope_Frame0
+  dw 3,sZoomerOam_WalkingOnRightSlope_Frame1
+  dw 3,sZoomerOam_WalkingOnRightSlope_Frame2
+  dw 3,sZoomerOam_WalkingOnRightSlope_Frame3
+  dw $80ED,sZoomerOam_WalkingOnRightSlope
