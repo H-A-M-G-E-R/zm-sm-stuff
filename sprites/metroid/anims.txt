@@ -1,0 +1,40 @@
+sMetroidShellOam_Idle:
+  dw 1,sMetroidShellOam_Idle_Frame0
+  dw 1,sMetroidShellOam_Idle_Frame1
+  dw $80ED,sMetroidShellOam_Idle
+
+sMetroidOam_Moving:
+  dw 4,sMetroidOam_Moving_Frame0
+  dw 2,sMetroidOam_Moving_Frame1
+  dw 2,sMetroidOam_Moving_Frame2
+  dw 2,sMetroidOam_Moving_Frame1
+  dw 2,sMetroidOam_Moving_Frame2
+  dw 12,sMetroidOam_Moving_Frame5
+  dw 12,sMetroidOam_Moving_Frame6
+  dw 12,sMetroidOam_Moving_Frame5
+  dw 12,sMetroidOam_Moving_Frame0
+  dw 2,sMetroidOam_Moving_Frame9
+  dw 2,sMetroidOam_Moving_Frame10
+  dw 2,sMetroidOam_Moving_Frame9
+  dw 2,sMetroidOam_Moving_Frame10
+  dw 4,sMetroidOam_Moving_Frame5
+  dw 12,sMetroidOam_Moving_Frame6
+  dw 12,sMetroidOam_Moving_Frame5
+  dw $80ED,sMetroidOam_Moving
+
+sMetroidOam_SamusGrabbed:
+  dw 2,sMetroidOam_SamusGrabbed_Frame0
+  dw 2,sMetroidOam_SamusGrabbed_Frame1
+  dw 2,sMetroidOam_SamusGrabbed_Frame0
+  dw 2,sMetroidOam_SamusGrabbed_Frame1
+  dw 8,sMetroidOam_SamusGrabbed_Frame4
+  dw 8,sMetroidOam_SamusGrabbed_Frame5
+  dw 8,sMetroidOam_SamusGrabbed_Frame4
+  dw 8,sMetroidOam_SamusGrabbed_Frame7
+  dw 2,sMetroidOam_SamusGrabbed_Frame8
+  dw 2,sMetroidOam_SamusGrabbed_Frame9
+  dw 2,sMetroidOam_SamusGrabbed_Frame8
+  dw 2,sMetroidOam_SamusGrabbed_Frame9
+  dw 8,sMetroidOam_SamusGrabbed_Frame5
+  dw 8,sMetroidOam_SamusGrabbed_Frame4
+  dw $80ED,sMetroidOam_SamusGrabbed

@@ -1,0 +1,1663 @@
+{
+ "game": "sm",
+ "name": "metroid",
+ "gfx": "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AAAAAAAAAAAAAAAAAAAAAAAAQgAkABgAGAAkAEIAAAAAAAAAAAAAAAAAAAAAAAAAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAJAAYABgAJABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAkABgAGAAkAEIAAAAAAAAAAAAAAAAAAAAAAAAAAABCACQAGAAYACQAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAMAAgACAAMAAQAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAALGg1YFYUCwoGhIHBgAAAADJ6e3tZHQyOh0fBwcAAAAAwMBAAKAgAAAAAAAAAAAAAADAgIDA4AAAAAAAAAAAAAB6UCwoHBQLCQcGAAAAAAAAZnYyOhoeDA0HBwAAAAAAALAQcEAYGAAAAAAAAAAAAADA0GhoGBgAAICAAAAAAAAALyobEA4MAwMAAAAAAAAAADE7HBwPDwMDAAAAAAAAAAA8MIAAwEDAAAAAAAAAAAAAPDyAgCBgwMAAAAAAAAAAAA==",
+ "palette": [
+  4291297528,
+  4294506744,
+  4283957248,
+  4294482072,
+  4294443008,
+  4290772992,
+  4287627264,
+  4290312376,
+  4278253568,
+  4278243440,
+  4278235200,
+  4293451968,
+  4290291848,
+  4287133792,
+  4294506496,
+  4283975728,
+  4288676032,
+  4290822336,
+  4281860096,
+  4290803832,
+  4290772992,
+  4287102976,
+  4284481536,
+  4287676560,
+  4278239232,
+  4278229072,
+  4278220840,
+  4289769624,
+  4286609504,
+  4283977792,
+  4290822144,
+  4281872416,
+  4286054544,
+  4287664272,
+  4279762944,
+  4287649880,
+  4287627264,
+  4283957248,
+  4281335808,
+  4285042792,
+  4278226944,
+  4278216760,
+  4278208536,
+  4286611568,
+  4283451448,
+  4280821792,
+  4287664128,
+  4279769104,
+  4283433056,
+  4284506208,
+  4278190080,
+  4284495928,
+  4284481536,
+  4280811520,
+  4278190080,
+  4282933320,
+  4278214656,
+  4278204448,
+  4278196232,
+  4283453512,
+  4280295448,
+  4278190080,
+  4284506112,
+  4278190080,
+  4289200344,
+  4294506744,
+  4285022208,
+  4294500480,
+  4294488120,
+  4291334208,
+  4287125504,
+  4290312376,
+  4278253568,
+  4278243440,
+  4278235200,
+  4293449920,
+  4290818192,
+  4287133792,
+  4294506496,
+  4283975728
+ ],
+ "gfx_offset": 256,
+ "palette_offset": 0,
+ "spritemaps": [
+  {
+   "name": "sMetroidShellOam_Idle_Frame0",
+   "spritemap": [
+    {
+     "x": -20,
+     "y": -17,
+     "tile": 304,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -20,
+     "y": -1,
+     "tile": 336,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -17,
+     "tile": 306,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -1,
+     "tile": 338,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -17,
+     "tile": 308,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 12,
+     "y": -9,
+     "tile": 324,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 12,
+     "y": -1,
+     "tile": 340,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 12,
+     "y": 7,
+     "tile": 352,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMetroidShellOam_Idle_Frame1",
+   "spritemap": [
+    {
+     "x": -20,
+     "y": -17,
+     "tile": 309,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -20,
+     "y": -1,
+     "tile": 341,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -17,
+     "tile": 311,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -4,
+     "y": -1,
+     "tile": 343,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 12,
+     "y": -17,
+     "tile": 313,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 12,
+     "y": -9,
+     "tile": 329,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 12,
+     "y": -1,
+     "tile": 345,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_Moving_Frame6",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 256,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 258,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 288,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 289,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 290,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 291,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 362,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 362,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_Moving_Frame5",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_Moving_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_Moving_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 268,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 270,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_Moving_Frame2",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 300,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 302,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 260,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 262,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 292,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 293,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 294,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 295,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 366,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_Moving_Frame9",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 314,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 332,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 330,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_Moving_Frame10",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 360,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 334,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 374,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 375,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 264,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 266,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 296,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 297,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 298,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 299,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 364,
+     "palette": 0,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_SamusGrabbed_Frame5",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 256,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 258,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 288,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 289,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 290,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 291,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 362,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 362,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_SamusGrabbed_Frame4",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 264,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 266,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 296,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 297,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 298,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 299,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 364,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 364,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_SamusGrabbed_Frame7",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 260,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 262,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 292,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 293,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 294,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 295,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 366,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 366,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_SamusGrabbed_Frame0",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 268,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 270,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 260,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 262,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 292,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 293,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 294,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 295,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 366,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 366,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_SamusGrabbed_Frame1",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 300,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 302,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 260,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 262,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 292,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 293,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 294,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 295,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 366,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 366,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_SamusGrabbed_Frame8",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 314,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 332,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -8,
+     "tile": 330,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 264,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 266,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 296,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 297,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 298,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 299,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 364,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 364,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  },
+  {
+   "name": "sMetroidOam_SamusGrabbed_Frame9",
+   "spritemap": [
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 360,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -8,
+     "tile": 334,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 374,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 375,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": -16,
+     "tile": 264,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": -16,
+     "tile": 266,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": -16,
+     "y": 0,
+     "tile": 296,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -8,
+     "y": 0,
+     "tile": 297,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "tile": 298,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "tile": 299,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": false
+    },
+    {
+     "x": -16,
+     "y": 3,
+     "tile": 364,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": false,
+     "v_flip": false,
+     "big": true
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "tile": 364,
+     "palette": 4,
+     "bg_priority": 0,
+     "h_flip": true,
+     "v_flip": false,
+     "big": true
+    }
+   ]
+  }
+ ],
+ "ext_hitboxes": [],
+ "ext_spritemaps": []
+}

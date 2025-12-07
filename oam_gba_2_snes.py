@@ -55,7 +55,7 @@ def build_gfx(fp):
     out = []
     for y in range(0, image.height, 8):
         for x in range(0, image.width, 8):
-            out.append(list(image.crop((x, y, x + 8, y + 8)).getdata()))
+            out.append([pixel & 0xF for pixel in image.crop((x, y, x + 8, y + 8)).getdata()])
     return out
 
 # Documented at https://www.coranac.com/tonc/text/regobj.htm
@@ -306,6 +306,7 @@ if __name__ == "__main__":
     #export_sprite_oam(0x57, 'gamet') done
     #export_sprite_oam(0x5b, 'zebbo', 0x82E7068) done
     #export_sprite_oam(0x60, 'piston') done
+    #export_sprite_oam(0x64, 'metroid', 0x82EDA28) done
     #export_sprite_oam(0x66, 'rinka', 0x82EE508) done
     #export_sprite_oam(0x67, 'polyp') done
     #export_sprite_oam(0x68, 'viola', 0x82EF758) done
@@ -318,3 +319,13 @@ if __name__ == "__main__":
     #export_sprite_oam(0x86, 'imago')
     #export_sprite_oam(0x93, 'baristute') done
     #export_sprite_oam(0x98, 'security_laser')
+
+    '''gba_gfx = build_gfx(f'wip/common_tiles_3.png')
+    snes_gfx = build_gfx(f'common_sprite_tiles/common_sprite_tiles_vram_layout.png')
+
+    for i, p_oam in enumerate([0x08339aa8, 0x08339ee4, 0x0833bd34, 0x0833cbe0]):
+        data = extract_generic(rom, 0x0832ba08, 1, p_oam, f'particles{i}', gba_gfx, snes_gfx, 0x40, 0)
+        image = Image.open(f'common_sprite_tiles/common_sprite_tiles_vram_layout.png')
+        data['gfx'] =  str(base64.b64encode(convert_to_4bpp(image)), 'utf8')
+
+        json.dump(data, open(f'common_sprite_tiles/particles{i}.json', 'w'), indent=1)'''
